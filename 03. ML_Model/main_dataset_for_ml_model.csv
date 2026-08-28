@@ -1,0 +1,734 @@
+dataset_id,Peptide,Organism,Assay,label,seq_length,MHC_Class_Used,MHC_Percentile_Rank,MHC_IC50_nM,MHC_Allele_Best,Class_I,Class_II,n_evidence_rows,n_distinct_references,qual_measure_counts,majority_qual_label,qual_agreement_frac,negative_confidence,confidence_v2,majority_binary,label_mismatch,similarity_cluster_id,cv_group
+EXTERNAL_05006,YMYLDRNDAGEAISF,Zika virus,T cell assay,0,15,II,9.6,463.86,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,0,Zika virus
+EXTERNAL_00626,LTTSQTLLFNILGGWVAAQL,Hepatitis C virus,T cell assay,1,20,II,13,55.72,HLA-DRB1*01:01,0,1,5,3,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,1,Hepatitis C virus
+EXTERNAL_01378,YQNKVVRVQRPTPRG,Dengue virus,T cell assay,1,15,II,7.7,128.9,HLA-DRB1*11:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,2,Dengue virus
+EXTERNAL_01365,GPMPVTHSSA,Dengue virus,T cell assay,0,10,I,0.14,58.71,HLA-B*07:02,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,3,Dengue virus
+PRIMARY_00185,QPYRVVVLSFELLHAPATVC,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,20,II,1.3,11.73,HLA-DRB1*01:01,0,1,5,1,{'Positive': 5},Positive,1,high,high,1,FALSE,4,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+PRIMARY_00216,LLALHRSYLTP,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,11,I,19,15323.85,HLA-A*02:01,1,0,4,1,{'Positive': 4},Positive,1,high,high,1,FALSE,5,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+PRIMARY_01438,IGAEHVNNSY,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,10,I,0.56,2025.79,HLA-A*01:01,1,0,3,1,{'Positive': 3},Positive,1,high,high,1,FALSE,6,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+PRIMARY_00622,ALQIPFAMQM,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,10,I,1.8,330.17,HLA-A*02:01,1,0,6,2,{'Positive': 6},Positive,1,high,high,1,FALSE,7,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_03924,TTTTQTQPSKPTTKQ,Human respiratory syncytial virus,T cell assay,0,15,II,91,3709.41,HLA-DRB1*01:01,0,1,4,1,"{'Positive-Low': 1, 'Negative': 3}",Negative,0.75,conflicting,high,0,TRUE,8,Human respiratory syncytial virus
+PRIMARY_00055,VFLVLLPLV,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,9,I,1.7,3448.64,HLA-A*24:02,1,0,3,1,{'Positive': 3},Positive,1,high,high,1,FALSE,9,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_03300,YMWLGARYL,Dengue virus,T cell assay,0,9,I,0.05,6.24,HLA-A*02:01,1,0,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,10,Dengue virus
+EXTERNAL_01431,LLAEQFKQK,Hepatitis C virus,T cell assay,1,9,I,0.4,153.54,HLA-A*03:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,11,Hepatitis C virus
+EXTERNAL_00180,HMDHFSLGV,Zika virus,T cell assay,0,9,I,0.1,11.2,HLA-A*02:01,1,0,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,12,Zika virus
+EXTERNAL_02005,KADRVIDSRRCLKPV,Zika virus,T cell assay,0,15,II,9.9,476.92,HLA-DRB1*03:01,0,1,5,4,{'Negative': 5},Negative,1,high,high,0,FALSE,13,Zika virus
+EXTERNAL_00133,EENMEVEIW,Dengue virus,T cell assay,1,9,I,0.03,35,HLA-B*44:03,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,14,Dengue virus
+EXTERNAL_03311,DEYLYGGGCAETDED,Zika virus,T cell assay,0,15,II,88,2841.95,HLA-DRB1*01:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,15,Zika virus
+EXTERNAL_02954,WYTSVITI,Human respiratory syncytial virus,T cell assay,1,8,I,0.8,1358.9,HLA-A*24:02,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,16,Human respiratory syncytial virus
+EXTERNAL_01518,ADDTAGWDTRISRFD,Zika virus,T cell assay,0,15,II,19,1026.14,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,17,Zika virus
+EXTERNAL_04692,LLVITVTDNKGAFKY,Human respiratory syncytial virus,T cell assay,1,15,II,2.9,120.92,HLA-DRB1*03:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,18,Human respiratory syncytial virus
+EXTERNAL_04123,VFTIKGLNPTAIFLT,Dengue virus,T cell assay,0,15,II,1.3,25.02,HLA-DRB1*13:02,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,19,Dengue virus
+EXTERNAL_01590,TKLITWGADTAACGDIINGL,Hepatitis C virus,T cell assay,0,20,II,28,575.76,HLA-DRB1*04:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,20,Hepatitis C virus
+EXTERNAL_05067,EVLAYVVQLPLYGVIDTP,Human respiratory syncytial virus,T cell assay,1,18,II,16,1070.28,HLA-DRB1*15:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,21,Human respiratory syncytial virus
+EXTERNAL_02353,SGHLKCRLKMDKLRL,Zika virus,T cell assay,0,15,II,19,345.29,HLA-DRB1*11:01,0,1,5,5,{'Negative': 5},Negative,1,high,high,0,FALSE,22,Zika virus
+EXTERNAL_02558,SIRETACLAKSYAQM,Zika virus,T cell assay,0,15,II,27,625.1,HLA-DRB1*11:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,23,Zika virus
+EXTERNAL_00460,HPALVFDITK,Hepatitis C virus,T cell assay,1,10,I,4.5,5863.67,HLA-A*03:01,1,0,4,1,{'Positive': 4},Positive,1,high,high,1,FALSE,24,Hepatitis C virus
+EXTERNAL_02078,YGMEIRPRKEPESNLVRSMV,Zika virus,T cell assay,0,20,II,79,3903.22,HLA-DRB1*11:01,0,1,4,3,"{'Positive': 1, 'Negative': 3}",Negative,0.75,conflicting,high,0,TRUE,25,Zika virus
+EXTERNAL_00876,MVHQIFGSAY,Dengue virus,T cell assay,1,10,I,0.84,3230.72,HLA-A*01:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,26,Dengue virus
+EXTERNAL_01104,KFQPESPARLASAIL,Dengue virus,T cell assay,0,15,II,5,17.14,HLA-DRB1*01:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,27,Dengue virus
+EXTERNAL_02579,IMYTMDIKYTTSTIS,Human respiratory syncytial virus,T cell assay,1,15,II,2.1,28.65,HLA-DRB1*07:01,0,1,2,1,{'Positive-Low': 2},Positive-Low,1,high,high,1,FALSE,28,Human respiratory syncytial virus
+EXTERNAL_05182,EDDIFRKKRLTIMDL,Dengue virus,T cell assay,1,15,II,11,179.81,HLA-DRB1*11:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,29,Dengue virus
+EXTERNAL_03318,GFADLMGYIPLVGAPL,Hepatitis C virus,T cell assay,1,16,II,0.18,7.88,HLA-DRB1*01:01,0,1,5,1,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,30,Hepatitis C virus
+EXTERNAL_02177,ENWIFRNPGFALVAV,Zika virus,T cell assay,0,15,II,0.16,9.58,HLA-DRB1*13:02,0,1,4,1,{'Negative': 4},Negative,1,high,high,0,FALSE,31,Zika virus
+EXTERNAL_00837,IDDRFATALTALNDM,Dengue virus,T cell assay,0,15,II,1.3,45.84,HLA-DRB1*04:01,0,1,5,3,"{'Negative': 4, 'Positive': 1}",Negative,0.8,conflicting,high,0,FALSE,32,Dengue virus
+PRIMARY_00841,LQIPFAMQMAY,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,11,I,3.2,11737.63,HLA-A*01:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,33,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+PRIMARY_00368,VEAEVQIDRLITGR,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,14,I,23,25494.69,HLA-A*03:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,34,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+PRIMARY_00962,WRGAAGTAAQAAVVR,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Epitope (unspecified assay);T cell assay,1,15,II,45,270.4,HLA-DRB1*01:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,35,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+EXTERNAL_02256,HQIFGAAFKSLFGGM,Zika virus,T cell assay,0,15,II,11,183.08,HLA-DRB1*11:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,36,Zika virus
+EXTERNAL_02519,TRQVMSMVSSWLWKELGKHK,Zika virus,T cell assay,0,20,II,9.3,117.71,HLA-DRB1*15:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,37,Zika virus
+EXTERNAL_00059,NELNYILWENNIKLT,Dengue virus,T cell assay,1,15,II,1.2,24,HLA-DRB1*13:02,0,1,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,38,Dengue virus
+EXTERNAL_05466,RPRTTWAENI,Zika virus,T cell assay,0,10,I,0.03,8.99,HLA-B*07:02,1,0,7,2,"{'Positive-High': 1, 'Negative': 6}",Negative,0.857142857,conflicting,high,0,TRUE,39,Zika virus
+EXTERNAL_03169,LQSNGWDRLKRMAVS,Zika virus,T cell assay,1,15,II,3.2,57.61,HLA-DRB1*11:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,40,Zika virus
+EXTERNAL_05248,LYREFDEMEECSQHLPYIEQ,Hepatitis C virus,T cell assay,0,20,II,92,11355.87,HLA-DRB1*03:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,41,Hepatitis C virus
+EXTERNAL_02004,RGFKKEISSMLNIMN,Dengue virus,T cell assay,1,15,II,0.72,6.53,HLA-DRB1*01:01,0,1,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,42,Dengue virus
+PRIMARY_00896,MASQGTKRSYEQMET,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);T cell assay,0,15,II,82,7397.34,HLA-DRB1*11:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,43,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+EXTERNAL_04032,PTLDIELLK,Dengue virus,T cell assay,1,9,I,2.8,2825.91,HLA-A*03:01,1,0,10,2,"{'Positive': 8, 'Positive-High': 1, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,44,Dengue virus
+EXTERNAL_00049,ENYLDYMISMKRFKN,Dengue virus,T cell assay,0,15,II,0.46,15.37,HLA-DRB1*11:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,45,Dengue virus
+EXTERNAL_04308,VMLLVLCAGQLLLMR,Dengue virus,T cell assay,0,15,II,18,269.76,HLA-DRB1*15:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,46,Dengue virus
+EXTERNAL_05063,TTQWQVLPCSFTTLP,Hepatitis C virus,T cell assay,0,15,II,26,100.81,HLA-DRB1*01:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,47,Hepatitis C virus
+EXTERNAL_00633,ASSMVNGVVR,Dengue virus,T cell assay,1,10,I,4.4,5632.04,HLA-A*03:01,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,48,Dengue virus
+EXTERNAL_03463,KRQTVVVLGSQEGAV,Zika virus,T cell assay,0,15,II,13,42.69,HLA-DRB1*01:01,0,1,6,5,{'Negative': 6},Negative,1,high,high,0,FALSE,49,Zika virus
+EXTERNAL_04936,SPVNIEAEPP,Dengue virus,T cell assay,0,10,I,5.3,10171.39,HLA-B*07:02,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,50,Dengue virus
+EXTERNAL_00317,NEMILLTMKNKAWMV,Dengue virus,T cell assay,1,15,II,0.49,16.21,HLA-DRB1*11:01,0,1,6,2,"{'Positive': 5, 'Negative': 1}",Positive,0.833333333,conflicting,high,1,FALSE,51,Dengue virus
+EXTERNAL_02981,IMKDGRKLVVPCRPQ,Dengue virus,T cell assay,0,15,II,19,980.96,HLA-DRB1*03:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,52,Dengue virus
+EXTERNAL_01543,ERLQRRYGGGLVRVP,Zika virus,T cell assay,0,15,II,13,192.64,HLA-DRB1*15:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,53,Zika virus
+EXTERNAL_00069,RSTTASGRVIEEWCC,Zika virus,T cell assay,0,15,II,75,3363.55,HLA-DRB1*07:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,54,Zika virus
+PRIMARY_00410,VNIQKEIDRLNEVAKNLN,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),B cell assay;Epitope (unspecified assay);T cell assay,0,18,II,38,5664.25,HLA-DRB1*03:01,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,55,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_03707,ELSPLLLTTTQWQVL,Hepatitis C virus,T cell assay,0,15,II,13,152.88,HLA-DRB1*07:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,56,Hepatitis C virus
+EXTERNAL_00121,CINGVWCTV,Hepatitis C virus,T cell assay,1,9,I,2.1,450.22,HLA-A*02:01,1,0,3,1,{'Positive': 3},Positive,1,high,high,1,FALSE,57,Hepatitis C virus
+EXTERNAL_03686,IAPAVQTNWQKLETFWAKHM,Hepatitis C virus,T cell assay,1,20,II,7.4,34.22,HLA-DRB1*01:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,58,Hepatitis C virus
+EXTERNAL_01781,MGVTYLALIATFKIQ,Dengue virus,T cell assay,1,15,II,1.8,40.51,HLA-DRB1*15:01,0,1,4,4,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,59,Dengue virus
+EXTERNAL_04640,VVLEHGGCVTVMAQD,Zika virus,T cell assay,0,15,II,49,321.06,HLA-DRB1*01:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,60,Zika virus
+EXTERNAL_03556,LKGLPIRYQTTATKS,Dengue virus,T cell assay,1,15,II,8.9,191.56,HLA-DRB1*04:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,61,Dengue virus
+EXTERNAL_00793,TPCTCGSSDLYLVTRHADVI,Hepatitis C virus,T cell assay,0,20,II,12,185.48,HLA-DRB1*11:01,0,1,5,3,"{'Positive': 1, 'Negative': 4}",Negative,0.8,conflicting,high,0,TRUE,62,Hepatitis C virus
+EXTERNAL_01432,LVLAPTRVVASEMAE,Dengue virus,T cell assay,0,15,II,9.7,206.99,HLA-DRB1*04:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,63,Dengue virus
+EXTERNAL_05488,LMCHATFTM,Dengue virus,T cell assay,1,9,I,0.55,69.95,HLA-A*02:01,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,64,Dengue virus
+PRIMARY_01538,DPFLGVYY,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,8,I,24,29510.08,HLA-A*01:01,1,0,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,65,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_00358,WGDVKQDLVSYCGPW,Zika virus,T cell assay,0,15,II,22,1210.27,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,66,Zika virus
+EXTERNAL_00299,LLSCLTVPASAYQVR,Hepatitis C virus,T cell assay,0,15,II,12,129.88,HLA-DRB1*07:01,0,1,5,3,{'Negative': 5},Negative,1,high,high,0,FALSE,67,Hepatitis C virus
+EXTERNAL_03951,CSFTTLPALSTGLIH,Hepatitis C virus,T cell assay,0,15,II,0.61,6.18,HLA-DRB1*01:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,68,Hepatitis C virus
+EXTERNAL_04946,DGCWYGMEIRPRKEP,Zika virus,T cell assay,0,15,II,24,512.53,HLA-DRB1*11:01,0,1,7,5,{'Negative': 7},Negative,1,high,high,0,FALSE,69,Zika virus
+EXTERNAL_02728,MRLLSPVRVPNYNLI,Dengue virus,T cell assay,1,15,II,5.3,75.51,HLA-DRB1*13:02,0,1,4,2,{'Positive': 4},Positive,1,high,high,1,FALSE,70,Dengue virus
+EXTERNAL_04901,FTTNIWLKL,Dengue virus,T cell assay,0,9,I,0.97,3828.89,HLA-A*01:01,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,71,Dengue virus
+EXTERNAL_00160,LTLIVAIILLVAHYM,Zika virus,T cell assay,0,15,II,43,994.47,HLA-DRB1*15:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,72,Zika virus
+EXTERNAL_00014,QLIYVILTILTIIGL,Dengue virus,T cell assay,0,15,II,50,348.75,HLA-DRB1*01:01,0,1,4,3,{'Negative': 4},Negative,1,high,high,0,FALSE,73,Dengue virus
+EXTERNAL_05126,TGWSNWEEV,Zika virus,T cell assay,0,9,I,6.6,16295.32,HLA-A*24:02,1,0,5,2,"{'Positive': 1, 'Negative': 4}",Negative,0.8,conflicting,high,0,TRUE,74,Zika virus
+EXTERNAL_01012,KYTVIITV,Dengue virus,T cell assay,0,8,I,1.7,3589.27,HLA-A*24:02,1,0,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,75,Dengue virus
+EXTERNAL_00288,LQPYGKVIDLGCGRG,Zika virus,T cell assay,0,15,II,29,1718.43,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,76,Zika virus
+PRIMARY_00411,GRLQSLQTY,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,9,I,7.5,20033.71,HLA-B*44:03,1,0,5,2,{'Positive': 5},Positive,1,high,high,1,FALSE,77,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_02639,GTSGSPIINK,Dengue virus,T cell assay,1,10,I,0.2,66.34,HLA-A*03:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,78,Dengue virus
+EXTERNAL_04449,QGKAHNGRLITANPV,Dengue virus,T cell assay,0,15,II,13,144.81,HLA-DRB1*07:01,0,1,7,3,"{'Negative': 6, 'Positive': 1}",Negative,0.857142857,conflicting,high,0,FALSE,79,Dengue virus
+EXTERNAL_00959,HPITKYIMACMSADL,Hepatitis C virus,T cell assay,1,15,II,6.3,97.63,HLA-DRB1*15:01,0,1,4,2,{'Positive': 4},Positive,1,high,high,1,FALSE,80,Hepatitis C virus
+EXTERNAL_01935,GECQSCVYNMMGKRE,Zika virus,T cell assay,0,15,II,40,2591.56,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,81,Zika virus
+EXTERNAL_05086,TKIPAETLHGTVTVE,Zika virus,T cell assay,0,15,II,62,624.54,HLA-DRB1*01:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,82,Zika virus
+EXTERNAL_04502,MSTNPKPQIKTKRNTNRR,Hepatitis C virus,T cell assay,0,18,II,53,5734.74,HLA-DRB1*11:01,0,1,3,1,{'Negative': 3},Negative,1,high,high,0,FALSE,83,Hepatitis C virus
+EXTERNAL_02646,VLNPYMPSV,Dengue virus,T cell assay,1,9,I,0.02,3.61,HLA-A*02:01,1,0,5,5,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,84,Dengue virus
+EXTERNAL_04334,AFVAFLRFLTIPPTA,Dengue virus,T cell assay,1,15,II,0.83,40.04,HLA-DRB1*04:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,85,Dengue virus
+EXTERNAL_04313,YHVTNDCPNSSIVYEAADAI,Hepatitis C virus,T cell assay,0,20,II,31,1901.29,HLA-DRB1*03:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,86,Hepatitis C virus
+EXTERNAL_01507,TTLGMNKCYIQIMDL,Zika virus,T cell assay,0,15,II,28,532.4,HLA-DRB1*13:02,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,87,Zika virus
+EXTERNAL_03064,PSPEFFTELDGVRLHRFAPP,Hepatitis C virus,T cell assay,0,20,II,0.48,8.02,HLA-DRB1*01:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,88,Hepatitis C virus
+EXTERNAL_05151,KTDWLPMTV,Dengue virus,T cell assay,0,9,I,0.19,391.95,HLA-A*01:01,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,89,Dengue virus
+EXTERNAL_02373,RPGAFCIKVL,Zika virus,T cell assay,1,10,I,0.06,18.99,HLA-B*07:02,1,0,9,1,"{'Positive-High': 1, 'Positive': 7, 'Negative': 1}",Positive,0.777777778,conflicting,high,1,FALSE,90,Zika virus
+EXTERNAL_01983,NQVEGEVQIVSTAAQ,Hepatitis C virus,T cell assay,0,15,II,38,987.74,HLA-DRB1*04:01,0,1,5,2,{'Negative': 5},Negative,1,high,high,0,FALSE,91,Hepatitis C virus
+PRIMARY_00277,DFTGCVIAWNSNNLDSKV,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,18,II,1.8,196.01,HLA-DRB1*15:01,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,92,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_01860,RDLGRVMVMVGATMT,Dengue virus,T cell assay,1,15,II,6.6,74.71,HLA-DRB1*07:01,0,1,4,2,{'Positive': 4},Positive,1,high,high,1,FALSE,93,Dengue virus
+PRIMARY_01361,GAGAALQIPFAMQMAYRFN,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,19,II,3.5,31.79,HLA-DRB1*01:01,0,1,5,1,{'Positive': 5},Positive,1,high,high,1,FALSE,94,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_02643,QYIYMGQPL,Dengue virus,T cell assay,1,9,I,0.26,225.12,HLA-A*24:02,1,0,10,2,{'Positive': 10},Positive,1,high,high,1,FALSE,95,Dengue virus
+EXTERNAL_04375,RGSLLSPRPISYLKG,Hepatitis C virus,T cell assay,0,15,II,16,286.7,HLA-DRB1*11:01,0,1,4,2,{'Negative': 4},Negative,1,high,high,0,FALSE,96,Hepatitis C virus
+EXTERNAL_04900,LTILIRTGLLVISGL,Dengue virus,T cell assay,0,15,II,17,249.34,HLA-DRB1*15:01,0,1,4,3,"{'Negative': 3, 'Positive': 1}",Negative,0.75,conflicting,high,0,FALSE,97,Dengue virus
+PRIMARY_00453,LKPFERDISTEIYQAGSTPC,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,20,II,8.3,202.33,HLA-DRB1*04:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,98,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_05135,AAGKRGAAL,Zika virus,T cell assay,0,9,I,0.28,142.33,HLA-B*07:02,1,0,4,1,"{'Positive-Low': 1, 'Negative': 3}",Negative,0.75,conflicting,high,0,TRUE,99,Zika virus
+EXTERNAL_00037,GTFHTMWHVTRGAVL,Dengue virus,T cell assay,1,15,II,0.13,8.09,HLA-DRB1*07:01,0,1,5,4,{'Positive': 5},Positive,1,high,high,1,FALSE,100,Dengue virus
+EXTERNAL_03808,GFGMVTLGASAWLMW,Zika virus,T cell assay,0,15,II,15,176.74,HLA-DRB1*07:01,0,1,5,4,"{'Negative': 4, 'Positive': 1}",Negative,0.8,conflicting,high,0,FALSE,101,Zika virus
+EXTERNAL_00578,SVGKKEAMETIKKFK,Zika virus,T cell assay,0,15,II,48,1761.62,HLA-DRB1*11:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,102,Zika virus
+EXTERNAL_00136,MEKYQLAVTIMAISC,Dengue virus,T cell assay,0,15,II,5.1,17.74,HLA-DRB1*01:01,0,1,7,3,"{'Positive': 1, 'Negative': 6}",Negative,0.857142857,conflicting,high,0,TRUE,103,Dengue virus
+EXTERNAL_04781,MSYECPMLDEGVEPD,Zika virus,T cell assay,0,15,II,91,12505.95,HLA-DRB1*03:01,0,1,4,4,{'Negative': 4},Negative,1,high,high,0,FALSE,104,Zika virus
+EXTERNAL_02888,HNGLRDLAVAVEPVV,Hepatitis C virus,T cell assay,0,15,II,25,1469.87,HLA-DRB1*03:01,0,1,5,2,{'Negative': 5},Negative,1,high,high,0,FALSE,105,Hepatitis C virus
+EXTERNAL_02321,IESEKNDTWRLKRAH,Zika virus,T cell assay,0,15,II,54,4005.34,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,106,Zika virus
+PRIMARY_01244,AVVRFQEAANKQK,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),B cell assay;Epitope (unspecified assay);T cell assay,1,13,I,3,3154.79,HLA-A*03:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,107,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+EXTERNAL_05420,INKVRSNAALGAIFE,Zika virus,T cell assay,0,15,II,0.78,18.59,HLA-DRB1*13:02,0,1,5,4,"{'Negative': 4, 'Positive': 1}",Negative,0.8,conflicting,high,0,FALSE,108,Zika virus
+EXTERNAL_01201,VVLGSQEGAVHTALA,Zika virus,T cell assay,0,15,II,50,349.09,HLA-DRB1*01:01,0,1,4,4,{'Negative': 4},Negative,1,high,high,0,FALSE,109,Zika virus
+EXTERNAL_01711,LSRNSTHEMY,Dengue virus,T cell assay,0,10,I,0.16,324.59,HLA-A*01:01,1,0,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,110,Dengue virus
+EXTERNAL_00892,DTTPYGQQRVFKEKV,Zika virus,T cell assay,0,15,II,36,915.56,HLA-DRB1*04:01,0,1,4,4,"{'Positive-High': 1, 'Negative': 3}",Negative,0.75,conflicting,high,0,TRUE,111,Zika virus
+EXTERNAL_04810,MAMATQAGVLFGMGK,Zika virus,T cell assay,0,15,II,29,422.95,HLA-DRB1*07:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,112,Zika virus
+EXTERNAL_04614,ALRGLPVRYMTTAVN,Zika virus,T cell assay,0,15,II,7,106.54,HLA-DRB1*15:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,113,Zika virus
+EXTERNAL_03823,TYVYDHLTPL,Hepatitis C virus,T cell assay,1,10,I,0.29,275.02,HLA-A*24:02,1,0,5,2,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,114,Hepatitis C virus
+EXTERNAL_04376,SIVYEAADAILHTPGCVPCV,Hepatitis C virus,T cell assay,1,20,II,9.8,229.96,HLA-DRB1*04:01,0,1,4,2,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,115,Hepatitis C virus
+PRIMARY_00541,NVKNLYEKVK,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);MHC ligand assay;T cell assay,1,10,I,5.8,8236.56,HLA-A*03:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,116,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+PRIMARY_00801,ADQKSTQNAINGITNKV,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);T cell assay,0,17,II,48,1636.01,HLA-DRB1*13:02,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,117,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+EXTERNAL_00890,FKTWLKAKLMPQLPGIPFVS,Hepatitis C virus,T cell assay,0,20,II,18,286.83,HLA-DRB1*11:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,118,Hepatitis C virus
+EXTERNAL_04635,TLPALSTGLIHLHQNIVDVQ,Hepatitis C virus,T cell assay,0,20,II,14,158.03,HLA-DRB1*15:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,119,Hepatitis C virus
+EXTERNAL_00213,MPSVIEKMET,Dengue virus,T cell assay,1,10,I,2.2,3217.39,HLA-B*07:02,1,0,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,120,Dengue virus
+EXTERNAL_00371,GPWHLGKLE,Dengue virus,T cell assay,1,9,I,6.9,13043.83,HLA-B*07:02,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,121,Dengue virus
+EXTERNAL_03222,QRAYALDTEVAASCG,Hepatitis C virus,T cell assay,0,15,II,7.2,161.86,HLA-DRB1*04:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,122,Hepatitis C virus
+EXTERNAL_00227,TQLATLRKLCIEGKI,Dengue virus,T cell assay,0,15,II,3.2,57.98,HLA-DRB1*11:01,0,1,4,2,"{'Negative': 3, 'Positive': 1}",Negative,0.75,conflicting,high,0,FALSE,123,Dengue virus
+EXTERNAL_01418,GKTRRVLPEIVREAI,Zika virus,T cell assay,0,15,II,21,476.11,HLA-DRB1*04:01,0,1,5,4,"{'Negative': 4, 'Positive': 1}",Negative,0.8,conflicting,high,0,FALSE,124,Zika virus
+EXTERNAL_02534,RWGQLKKTKAIKILT,Dengue virus,T cell assay,1,15,II,0.04,6.45,HLA-DRB1*07:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,125,Dengue virus
+EXTERNAL_05053,IVVPCRHQDELIGRA,Zika virus,T cell assay,0,15,II,44,2922.21,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,126,Zika virus
+EXTERNAL_02825,VATIRKVQEVKGYTK,Zika virus,T cell assay,0,15,II,21,413.38,HLA-DRB1*11:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,127,Zika virus
+EXTERNAL_00382,VVLLLFAGVDAETHV,Hepatitis C virus,T cell assay,0,15,II,12,238.73,HLA-DRB1*04:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,128,Hepatitis C virus
+EXTERNAL_01784,TSLTGRDKNQVEGEV,Hepatitis C virus,T cell assay,0,15,II,83,7722.43,HLA-DRB1*11:01,0,1,5,2,{'Negative': 5},Negative,1,high,high,0,FALSE,129,Hepatitis C virus
+EXTERNAL_01588,LPETLETLLL,Dengue virus,T cell assay,1,10,I,1.3,1291.04,HLA-B*07:02,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,130,Dengue virus
+EXTERNAL_02490,SRSLTPCTCGSSDLY,Hepatitis C virus,T cell assay,0,15,II,77,5913.75,HLA-DRB1*11:01,0,1,4,2,{'Negative': 4},Negative,1,high,high,0,FALSE,131,Hepatitis C virus
+EXTERNAL_02431,MLELDPPFGDSYIVI,Zika virus,T cell assay,0,15,II,23,1306.88,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,132,Zika virus
+EXTERNAL_02442,QVRYLGEEGSTPGVL,Zika virus,T cell assay,0,15,II,33,816.82,HLA-DRB1*04:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,133,Zika virus
+EXTERNAL_03567,RIETWILRHPGFTIM,Dengue virus,T cell assay,1,15,II,0.46,19.19,HLA-DRB1*15:01,0,1,4,2,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,134,Dengue virus
+EXTERNAL_04152,AFLRFLTIPPTAGIL,Dengue virus,T cell assay,1,15,II,0.2,20.18,HLA-DRB1*04:01,0,1,5,4,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,135,Dengue virus
+EXTERNAL_01825,HYPCTINYTIFKIRM,Hepatitis C virus,T cell assay,0,15,II,8.5,124.48,HLA-DRB1*15:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,136,Hepatitis C virus
+EXTERNAL_00224,LDVALDESGDFSLVE,Zika virus,T cell assay,0,15,II,6.8,315.66,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,137,Zika virus
+EXTERNAL_00485,VGAPLGGAARALAHGVR,Hepatitis C virus,T cell assay,0,17,II,22,581.68,HLA-DRB1*11:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,138,Hepatitis C virus
+EXTERNAL_04172,VTRHADVIPVRRRGD,Hepatitis C virus,T cell assay,0,15,II,21,1130.71,HLA-DRB1*03:01,0,1,4,2,{'Negative': 4},Negative,1,high,high,0,FALSE,139,Hepatitis C virus
+EXTERNAL_04270,LIEMKTCEWPKSHTL,Zika virus,T cell assay,0,15,II,56,2518.1,HLA-DRB1*11:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,140,Zika virus
+EXTERNAL_04240,SRRAVTLPSHSTRKL,Zika virus,T cell assay,0,15,II,18,60.82,HLA-DRB1*01:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,141,Zika virus
+EXTERNAL_01985,QYENLKYSVIVTVHT,Dengue virus,T cell assay,1,15,II,3.4,42.89,HLA-DRB1*07:01,0,1,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,142,Dengue virus
+EXTERNAL_03818,LATGPVLTLW,Dengue virus,T cell assay,1,10,I,4.2,12967.42,HLA-B*44:03,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,143,Dengue virus
+EXTERNAL_05148,GKFLADGGCSGGAYDI,Hepatitis C virus,T cell assay,0,16,II,7.2,339.28,HLA-DRB1*04:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,144,Hepatitis C virus
+EXTERNAL_01282,YVKTGKRSGALWDVP,Zika virus,T cell assay,0,15,II,26,597.55,HLA-DRB1*11:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,145,Zika virus
+EXTERNAL_02359,DVSSSVITSLGAIVS,Human respiratory syncytial virus,T cell assay,0,15,II,3.1,46.18,HLA-DRB1*13:02,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,146,Human respiratory syncytial virus
+EXTERNAL_03140,GNASRCWVA,Hepatitis C virus,T cell assay,1,9,I,23,29070.84,HLA-A*01:01,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,147,Hepatitis C virus
+EXTERNAL_04947,RVILAGPMPVTHASA,Zika virus,T cell assay,0,15,II,1.9,31.88,HLA-DRB1*13:02,0,1,5,4,{'Negative': 5},Negative,1,high,high,0,FALSE,148,Zika virus
+EXTERNAL_03858,LPVWLAYRV,Dengue virus,T cell assay,1,9,I,1.6,1820.19,HLA-B*07:02,1,0,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,149,Dengue virus
+EXTERNAL_05249,LMMMLPATL,Dengue virus,T cell assay,1,9,I,0.08,9.44,HLA-A*02:01,1,0,4,3,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,150,Dengue virus
+EXTERNAL_02062,NQMEKGHRALALAII,Zika virus,T cell assay,0,15,II,4.9,58.46,HLA-DRB1*07:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,151,Zika virus
+EXTERNAL_02486,MTTAVNVTHSGTEIV,Zika virus,T cell assay,0,15,II,27,380.8,HLA-DRB1*07:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,152,Zika virus
+EXTERNAL_01146,GATEIQMSSGNLLFT,Dengue virus,T cell assay,1,15,II,0.04,6.86,HLA-DRB1*13:02,0,1,5,3,{'Positive': 5},Positive,1,high,high,1,FALSE,153,Dengue virus
+EXTERNAL_01958,AIFMTATPPGTRDAF,Zika virus,T cell assay,1,15,II,3.5,91.75,HLA-DRB1*04:01,0,1,5,1,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,154,Zika virus
+EXTERNAL_04117,NGKRLEPNWASVKKD,Dengue virus,T cell assay,1,15,II,16,263.56,HLA-DRB1*13:02,0,1,3,1,{'Positive': 3},Positive,1,high,high,1,FALSE,155,Dengue virus
+EXTERNAL_05264,LWTDGIEESDLIIPK,Zika virus,T cell assay,0,15,II,56,4148.87,HLA-DRB1*03:01,0,1,4,2,{'Negative': 4},Negative,1,high,high,0,FALSE,156,Zika virus
+EXTERNAL_00034,PFGDSYIVIGVGEKK,Zika virus,T cell assay,0,15,II,24,531.12,HLA-DRB1*11:01,0,1,5,5,"{'Negative': 4, 'Positive': 1}",Negative,0.8,conflicting,high,0,FALSE,157,Zika virus
+EXTERNAL_00188,LGSQEGAMHTALTGA,Dengue virus,T cell assay,0,15,II,68,827.2,HLA-DRB1*01:01,0,1,7,2,"{'Negative': 6, 'Positive': 1}",Negative,0.857142857,conflicting,high,0,FALSE,158,Dengue virus
+EXTERNAL_00700,AITQGRREEETPVEC,Zika virus,T cell assay,0,15,II,89,11716.06,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,159,Zika virus
+EXTERNAL_00101,MEITAEWLW,Dengue virus,T cell assay,1,9,I,0.01,5.77,HLA-B*44:03,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,160,Dengue virus
+PRIMARY_01372,IMLCCMTSCCSCLKG,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),B cell assay;Epitope (unspecified assay);MHC ligand assay;T cell assay,0,15,II,57,493.88,HLA-DRB1*01:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,161,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_02138,TYMLTNSELL,Human respiratory syncytial virus,T cell assay,1,10,I,0.09,50.11,HLA-A*24:02,1,0,9,5,"{'Positive': 7, 'Negative': 1, 'Positive-High': 1}",Positive,0.777777778,conflicting,high,1,FALSE,162,Human respiratory syncytial virus
+EXTERNAL_03279,GHLKCRLRMDKLQLK,Dengue virus,T cell assay,1,15,II,1.2,54.32,HLA-DRB1*03:01,0,1,11,4,"{'Positive': 10, 'Negative': 1}",Positive,0.909090909,conflicting,high,1,FALSE,163,Dengue virus
+EXTERNAL_00300,IRMYVGGVEHRLEAA,Hepatitis C virus,T cell assay,0,15,II,18,61.35,HLA-DRB1*01:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,164,Hepatitis C virus
+EXTERNAL_00377,AYAAQGYKVL,Hepatitis C virus,T cell assay,1,10,I,0.67,1014.18,HLA-A*24:02,1,0,5,2,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,165,Hepatitis C virus
+EXTERNAL_03156,GRLITVNPIVTEKDS,Dengue virus,T cell assay,0,15,II,5,72.22,HLA-DRB1*13:02,0,1,11,4,"{'Positive': 3, 'Negative': 8}",Negative,0.727272727,conflicting,high,0,TRUE,166,Dengue virus
+EXTERNAL_05186,WTGALVTPCAAEEQK,Hepatitis C virus,T cell assay,1,15,II,76,1250.1,HLA-DRB1*01:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,167,Hepatitis C virus
+EXTERNAL_02730,CSKKMTGKSIQPENL,Zika virus,T cell assay,0,15,II,61,590.33,HLA-DRB1*01:01,0,1,4,4,"{'Positive': 1, 'Negative': 3}",Negative,0.75,conflicting,high,0,TRUE,168,Zika virus
+EXTERNAL_04646,QVRNSTGLYHVTNDC,Hepatitis C virus,T cell assay,0,15,II,40,937.91,HLA-DRB1*13:02,0,1,5,2,{'Negative': 5},Negative,1,high,high,0,FALSE,169,Hepatitis C virus
+EXTERNAL_03999,KAKGSRAIW,Dengue virus,T cell assay,1,9,I,4.4,8166.98,HLA-B*07:02,1,0,4,4,"{'Positive': 3, 'Positive-Intermediate': 1}",Positive,0.75,conflicting,high,1,FALSE,170,Dengue virus
+EXTERNAL_00494,WAIKWEYVVLLFLLL,Hepatitis C virus,T cell assay,1,15,II,55,1661.45,HLA-DRB1*15:01,0,1,5,2,{'Positive': 5},Positive,1,high,high,1,FALSE,171,Hepatitis C virus
+EXTERNAL_05137,IKNTVNMVRRIIGDE,Zika virus,T cell assay,0,15,II,1.3,27.09,HLA-DRB1*11:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,172,Zika virus
+EXTERNAL_04283,YLIPGLQAAAARAAQ,Zika virus,T cell assay,0,15,II,4.4,15.91,HLA-DRB1*01:01,0,1,7,4,{'Negative': 7},Negative,1,high,high,0,FALSE,173,Zika virus
+EXTERNAL_02887,GYLQPYGKVIDLGCG,Zika virus,T cell assay,0,15,II,51,1384.53,HLA-DRB1*15:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,174,Zika virus
+EXTERNAL_03601,APTRVVAAEM,Dengue virus,T cell assay,1,10,I,0.05,14.14,HLA-B*07:02,1,0,37,14,"{'Positive': 27, 'Positive-Low': 4, 'Positive-High': 4, 'Negative': 2}",Positive,0.72972973,conflicting,high,1,FALSE,175,Dengue virus
+EXTERNAL_03679,SALEGDLMVLINGFA,Zika virus,T cell assay,0,15,II,17,861.59,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,176,Zika virus
+EXTERNAL_01228,LIGRARVSPGAGWSI,Zika virus,T cell assay,0,15,II,30,440.66,HLA-DRB1*07:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,177,Zika virus
+EXTERNAL_00906,GDIGAVALDYPAGTSGSPIL,Zika virus,T cell assay,0,20,II,13,752.1,HLA-DRB1*03:01,0,1,4,3,"{'Positive': 1, 'Negative': 3}",Negative,0.75,conflicting,high,0,TRUE,178,Zika virus
+EXTERNAL_02959,YVLGIFLRKLTSRET,Dengue virus,T cell assay,1,15,II,0.49,16.3,HLA-DRB1*11:01,0,1,5,3,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,179,Dengue virus
+EXTERNAL_02723,EVQLLAVPPGERARN,Zika virus,T cell assay,0,15,II,25,1464.4,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,180,Zika virus
+EXTERNAL_03886,PVRRRGDSRGSLLSPRPISY,Hepatitis C virus,T cell assay,0,20,II,52,330.93,HLA-DRB1*01:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,181,Hepatitis C virus
+EXTERNAL_04066,AVSFVTLITGNMSFR,Dengue virus,T cell assay,0,15,II,0.68,36.57,HLA-DRB1*04:01,0,1,5,2,"{'Positive': 1, 'Negative': 4}",Negative,0.8,conflicting,high,0,TRUE,182,Dengue virus
+EXTERNAL_01764,KVVKVLRPTPKGAVM,Dengue virus,T cell assay,0,15,II,3.5,60.62,HLA-DRB1*11:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,183,Dengue virus
+EXTERNAL_03737,GEAAGIFMTATPPGS,Dengue virus,T cell assay,1,15,II,2.8,77.22,HLA-DRB1*04:01,0,1,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,184,Dengue virus
+EXTERNAL_03870,SAGITYTDRRWCFDG,Zika virus,T cell assay,0,15,II,7.7,367.92,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,185,Zika virus
+PRIMARY_00338,QALNTLVKQLS,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,11,I,37,27892.89,HLA-A*02:01,1,0,5,4,{'Positive': 5},Positive,1,high,high,1,FALSE,186,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+PRIMARY_00999,VLGQSKRVDFCGKGY,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),B cell assay;Epitope (unspecified assay);MHC ligand assay;T cell assay,0,15,II,54,3933.49,HLA-DRB1*03:01,0,1,4,3,{'Negative': 4},Negative,1,high,high,0,FALSE,187,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_02850,EMILLTMKNKAWMVH,Dengue virus,T cell assay,1,15,II,0.67,18.93,HLA-DRB1*11:01,0,1,5,3,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,188,Dengue virus
+EXTERNAL_01750,CYSQVNPTTL,Dengue virus,T cell assay,1,10,I,0.29,279.27,HLA-A*24:02,1,0,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,189,Dengue virus
+EXTERNAL_05169,PLTDFDQGWGPISYA,Hepatitis C virus,T cell assay,0,15,II,57,478.85,HLA-DRB1*01:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,190,Hepatitis C virus
+EXTERNAL_03205,AETLHGTVTVEVQYA,Zika virus,T cell assay,0,15,II,9.3,104.14,HLA-DRB1*07:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,191,Zika virus
+EXTERNAL_00404,YAMCLNTFV,Dengue virus,T cell assay,0,9,I,0.1,10.94,HLA-A*02:01,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,192,Dengue virus
+EXTERNAL_03208,SDFKTWLKA,Hepatitis C virus,T cell assay,1,9,I,4.1,12675.96,HLA-B*44:03,1,0,4,2,{'Positive': 4},Positive,1,high,high,1,FALSE,193,Hepatitis C virus
+EXTERNAL_03178,KGRLSSGHLKCRLKM,Zika virus,T cell assay,0,15,II,24,512.39,HLA-DRB1*11:01,0,1,4,4,"{'Negative': 3, 'Positive': 1}",Negative,0.75,conflicting,high,0,FALSE,194,Zika virus
+EXTERNAL_00319,FTILALFLAH,Dengue virus,T cell assay,1,10,I,4,13909.82,HLA-A*01:01,1,0,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,195,Dengue virus
+EXTERNAL_00967,DQRPYCWHYPPKPCGIVPAK,Hepatitis C virus,T cell assay,0,20,II,79,2512.27,HLA-DRB1*15:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,196,Hepatitis C virus
+EXTERNAL_00543,NPIVTEKDSPVNIEA,Dengue virus,T cell assay,0,15,II,26,1490.03,HLA-DRB1*03:01,0,1,9,3,{'Negative': 9},Negative,1,high,high,0,FALSE,197,Dengue virus
+EXTERNAL_00002,NGSISLMCLALGGVL,Zika virus,T cell assay,0,15,II,15,181.23,HLA-DRB1*07:01,0,1,4,4,{'Negative': 4},Negative,1,high,high,0,FALSE,198,Zika virus
+EXTERNAL_03010,YFHRRDLRL,Dengue virus,T cell assay,1,9,I,0.68,1027,HLA-A*24:02,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,199,Dengue virus
+EXTERNAL_01244,PKNFQTMPGTFQTTT,Dengue virus,T cell assay,0,15,II,3.4,88.26,HLA-DRB1*04:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,200,Dengue virus
+EXTERNAL_00573,KARSTPVTLSKDQLS,Human respiratory syncytial virus,T cell assay,0,15,II,45,1283.34,HLA-DRB1*04:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,201,Human respiratory syncytial virus
+EXTERNAL_02309,IIFILLMLVTPSMAM,Dengue virus,T cell assay,0,15,II,2.4,32.86,HLA-DRB1*07:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,202,Dengue virus
+EXTERNAL_04628,ALDTEVAASCGGVVL,Hepatitis C virus,T cell assay,0,15,II,27,392.4,HLA-DRB1*07:01,0,1,4,2,{'Negative': 4},Negative,1,high,high,0,FALSE,203,Hepatitis C virus
+EXTERNAL_04451,QYLAGLSTLPGNPAI,Hepatitis C virus,T cell assay,0,15,II,3.5,13.95,HLA-DRB1*01:01,0,1,6,3,"{'Positive': 1, 'Negative': 5}",Negative,0.833333333,conflicting,high,0,TRUE,204,Hepatitis C virus
+EXTERNAL_04977,GEARKTFVEL,Dengue virus,T cell assay,1,10,I,0.82,2175.98,HLA-B*44:03,1,0,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,205,Dengue virus
+EXTERNAL_03843,TALNCNDSLNTGWLA,Hepatitis C virus,T cell assay,0,15,II,24,444,HLA-DRB1*13:02,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,206,Hepatitis C virus
+EXTERNAL_00970,FTAIKPSLGLINRWG,Zika virus,T cell assay,0,15,II,6.8,76.98,HLA-DRB1*07:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,207,Zika virus
+EXTERNAL_04951,VNMVSRLLLNRFTMT,Dengue virus,T cell assay,1,15,II,4.6,66.39,HLA-DRB1*13:02,0,1,4,4,"{'Negative': 1, 'Positive': 3}",Positive,0.75,conflicting,high,1,TRUE,208,Dengue virus
+EXTERNAL_03042,VRVQGLLRFCALARK,Hepatitis C virus,T cell assay,0,15,II,1.5,37.66,HLA-DRB1*15:01,0,1,5,2,{'Negative': 5},Negative,1,high,high,0,FALSE,209,Hepatitis C virus
+EXTERNAL_00842,VPAKSVCGPVYCFTP,Hepatitis C virus,T cell assay,0,15,II,71,2724.87,HLA-DRB1*07:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,210,Hepatitis C virus
+PRIMARY_00702,QEVFAQVKQI,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,10,I,0.21,336.5,HLA-B*44:03,1,0,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,211,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_00791,LQPYGKVIDLGCGRGGWSYY,Zika virus,T cell assay,0,20,II,50,3446.51,HLA-DRB1*03:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,212,Zika virus
+EXTERNAL_02781,RRDLRLASNAICSAVPV,Dengue virus,T cell assay,1,17,II,0.44,45.12,HLA-DRB1*04:01,0,1,3,1,{'Positive-High': 3},Positive-High,1,high,high,1,FALSE,213,Dengue virus
+PRIMARY_00899,LPLVSSQCVNLTTRTQLP,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,18,II,32,2588.99,HLA-DRB1*04:01,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,214,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_02223,SWTMKILIGVIITWI,Dengue virus,T cell assay,1,15,II,35,163.69,HLA-DRB1*01:01,0,1,4,2,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,215,Dengue virus
+PRIMARY_00872,SVLYNSASF,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,9,I,1.2,1977.48,HLA-A*24:02,1,0,3,1,{'Positive': 3},Positive,1,high,high,1,FALSE,216,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_00471,QDLLVTFKTAHAKKQ,Dengue virus,T cell assay,1,15,II,0.08,12,HLA-DRB1*15:01,0,1,6,3,"{'Positive': 5, 'Negative': 1}",Positive,0.833333333,conflicting,high,1,FALSE,217,Dengue virus
+EXTERNAL_03511,QRLPVPVNELPHGWK,Zika virus,T cell assay,0,15,II,79,6579.11,HLA-DRB1*11:01,0,1,6,4,"{'Negative': 5, 'Positive': 1}",Negative,0.833333333,conflicting,high,0,FALSE,218,Zika virus
+EXTERNAL_04771,LGRMDGPRRPVKYEEDVNLG,Zika virus,T cell assay,0,20,II,68,5318.11,HLA-DRB1*03:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,219,Zika virus
+PRIMARY_00321,SSCSSCPLSK,Epstein-Barr virus (Human herpesvirus 4),Epitope (unspecified assay);MHC ligand assay;T cell assay,1,10,I,0.38,140.7,HLA-A*03:01,1,0,35,10,{'Positive': 35},Positive,1,high,high,1,FALSE,220,Epstein-Barr virus (Human herpesvirus 4)
+EXTERNAL_04869,RAMVVPRTDNITLAI,Zika virus,T cell assay,0,15,II,20,328.37,HLA-DRB1*13:02,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,221,Zika virus
+EXTERNAL_02504,ERTKSDLSHLMGRRE,Zika virus,T cell assay,0,15,II,14,723.34,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,222,Zika virus
+EXTERNAL_02533,VLLLVTHYA,Dengue virus,T cell assay,1,9,I,0.26,28.52,HLA-A*02:01,1,0,9,3,"{'Positive': 8, 'Negative': 1}",Positive,0.888888889,conflicting,high,1,FALSE,223,Dengue virus
+EXTERNAL_01664,KVAAIEGEFKLRTEQ,Zika virus,T cell assay,0,15,II,12,554.09,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,224,Zika virus
+EXTERNAL_05321,GDSYIVIGVGEKKIT,Zika virus,T cell assay,0,15,II,17,315.91,HLA-DRB1*11:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,225,Zika virus
+EXTERNAL_05287,YAQMWQLLY,Zika virus,T cell assay,0,9,I,0.02,12.61,HLA-A*01:01,1,0,8,2,"{'Positive-Low': 1, 'Negative': 7}",Negative,0.875,conflicting,high,0,TRUE,226,Zika virus
+EXTERNAL_04935,KTNIITTLLTSNTTG,Human respiratory syncytial virus,T cell assay,0,15,II,11,229.35,HLA-DRB1*04:01,0,1,4,1,"{'Negative': 3, 'Positive-Intermediate': 1}",Negative,0.75,conflicting,high,0,FALSE,227,Human respiratory syncytial virus
+EXTERNAL_00475,VIEHLERLQRKHGGM,Dengue virus,T cell assay,0,15,II,4.2,72,HLA-DRB1*11:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,228,Dengue virus
+EXTERNAL_04853,YNLYIMDEAHFTDPS,Zika virus,T cell assay,0,15,II,3.9,98.14,HLA-DRB1*04:01,0,1,5,4,{'Negative': 5},Negative,1,high,high,0,FALSE,229,Zika virus
+EXTERNAL_00272,RRPQDVKFPGGGQIV,Hepatitis C virus,T cell assay,0,15,II,82,4629.96,HLA-DRB1*07:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,230,Hepatitis C virus
+EXTERNAL_05499,FHTMWHVTRGAVLTY,Dengue virus,T cell assay,1,15,II,0.07,7.25,HLA-DRB1*07:01,0,1,4,4,{'Positive': 4},Positive,1,high,high,1,FALSE,231,Dengue virus
+EXTERNAL_00365,VIAPAVQTNW,Hepatitis C virus,T cell assay,1,10,I,3.2,7924.64,HLA-A*24:02,1,0,7,4,"{'Positive': 6, 'Negative': 1}",Positive,0.857142857,conflicting,high,1,FALSE,232,Hepatitis C virus
+PRIMARY_01477,NALQNLARTISEAGQ,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Epitope (unspecified assay);T cell assay,1,15,II,4.3,74.21,HLA-DRB1*11:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,233,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+EXTERNAL_00762,EEFTRKVRSNAAIGA,Dengue virus,T cell assay,1,15,II,3.3,48.56,HLA-DRB1*13:02,0,1,4,3,{'Positive': 4},Positive,1,high,high,1,FALSE,234,Dengue virus
+EXTERNAL_05381,CLGKAYAQMWSLMYF,Dengue virus,T cell assay,1,15,II,6.4,148.88,HLA-DRB1*04:01,0,1,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,235,Dengue virus
+EXTERNAL_04892,TWVVYGTCHHKKGEA,Zika virus,T cell assay,0,15,II,27,628.23,HLA-DRB1*11:01,0,1,4,4,{'Negative': 4},Negative,1,high,high,0,FALSE,236,Zika virus
+EXTERNAL_01675,EAPNMKIIGNRIERI,Zika virus,T cell assay,0,15,II,0.5,14.41,HLA-DRB1*13:02,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,237,Zika virus
+PRIMARY_00749,QATDDSGHESDSNSNEGRHH,Epstein-Barr virus (Human herpesvirus 4),Epitope (unspecified assay);T cell assay,0,20,II,100,18468.22,HLA-DRB1*01:01,0,1,4,1,{'Negative': 4},Negative,1,high,high,0,FALSE,238,Epstein-Barr virus (Human herpesvirus 4)
+EXTERNAL_00542,YKYHPDSPRRLAAAV,Zika virus,T cell assay,0,15,II,7.2,338.82,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,239,Zika virus
+EXTERNAL_00797,CDPAVIGTAVKGKEA,Zika virus,T cell assay,1,15,II,59,2826.19,HLA-DRB1*11:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,240,Zika virus
+EXTERNAL_00477,LLMRTTWAF,Dengue virus,T cell assay,1,9,I,0.1,61.27,HLA-A*24:02,1,0,4,1,{'Positive': 4},Positive,1,high,high,1,FALSE,241,Dengue virus
+EXTERNAL_03607,LMRNKGIGKMGFGMV,Zika virus,T cell assay,0,15,II,29,697.93,HLA-DRB1*11:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,242,Zika virus
+PRIMARY_00661,FNGLTVLPPLLTDEMIAQ,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,18,II,5.6,182.35,HLA-DRB1*01:01,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,243,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_01811,RSCTLPPLRY,Dengue virus,T cell assay,1,10,I,0.3,854.79,HLA-A*01:01,1,0,4,4,"{'Positive': 3, 'Positive-Low': 1}",Positive,0.75,conflicting,high,1,FALSE,244,Dengue virus
+EXTERNAL_01454,AAAVKQAWEDGICGI,Zika virus,T cell assay,1,15,II,84,9697.35,HLA-DRB1*03:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,245,Zika virus
+EXTERNAL_02689,CVREGNASRCWVAMT,Hepatitis C virus,T cell assay,0,15,II,61,1858.02,HLA-DRB1*07:01,0,1,5,2,{'Negative': 5},Negative,1,high,high,0,FALSE,246,Hepatitis C virus
+EXTERNAL_00219,FTAGYSGGDIYHSVSHARPR,Hepatitis C virus,T cell assay,0,20,II,23,391.81,HLA-DRB1*11:01,0,1,4,3,{'Negative': 4},Negative,1,high,high,0,FALSE,247,Hepatitis C virus
+EXTERNAL_04392,HTLWSNGVLES,Dengue virus,T cell assay,1,11,I,14,9945.79,HLA-A*02:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,248,Dengue virus
+PRIMARY_00666,KWDATATELNNALQNL,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Epitope (unspecified assay);T cell assay,1,16,II,44,1633.11,HLA-DRB1*13:02,0,1,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,249,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+EXTERNAL_01809,PSEVLTAVGLICALA,Zika virus,T cell assay,0,15,II,29,426.81,HLA-DRB1*07:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,250,Zika virus
+PRIMARY_01282,EIAERPKVRDQAG,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);T cell assay,1,13,I,59,38426,HLA-B*07:02,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,251,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+EXTERNAL_04082,YFQRVLIFILLTAVT,Dengue virus,T cell assay,1,15,II,56,1754.35,HLA-DRB1*15:01,0,1,4,2,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,252,Dengue virus
+EXTERNAL_00690,VGGVYLLPRRGPRLG,Hepatitis C virus,T cell assay,1,15,II,1.6,31.32,HLA-DRB1*11:01,0,1,4,3,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,253,Hepatitis C virus
+EXTERNAL_05238,GSLVTCAKFACSKKMTGKSI,Zika virus,T cell assay,0,20,II,5.5,88.44,HLA-DRB1*11:01,0,1,7,2,"{'Negative': 6, 'Positive': 1}",Negative,0.857142857,conflicting,high,0,FALSE,254,Zika virus
+EXTERNAL_01360,KQSGENLPYLVAYQATVCAR,Hepatitis C virus,T cell assay,1,20,II,6.2,86.5,HLA-DRB1*15:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,255,Hepatitis C virus
+EXTERNAL_02292,KPVILDGERVILAGPMPVTH,Zika virus,T cell assay,0,20,II,1.4,25.21,HLA-DRB1*13:02,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,256,Zika virus
+EXTERNAL_00221,RPALLVSFIF,Zika virus,T cell assay,1,10,I,0.15,62.53,HLA-B*07:02,1,0,10,2,"{'Positive-High': 1, 'Positive': 7, 'Negative': 2}",Positive,0.7,conflicting,high,1,FALSE,257,Zika virus
+EXTERNAL_02520,KKQDVVVLGSQEGAM,Dengue virus,T cell assay,1,15,II,19,67.87,HLA-DRB1*01:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,258,Dengue virus
+EXTERNAL_01695,DFGSVGGVL,Dengue virus,T cell assay,1,9,I,6.1,15426.32,HLA-A*24:02,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,259,Dengue virus
+EXTERNAL_00817,YAQMWSLMYFHRRDL,Dengue virus,T cell assay,1,15,II,8.5,141.79,HLA-DRB1*11:01,0,1,7,3,"{'Positive': 5, 'Negative': 2}",Positive,0.714285714,conflicting,high,1,FALSE,260,Dengue virus
+EXTERNAL_04202,SYSGVEGEGL,Dengue virus,T cell assay,1,10,I,1.9,4072.24,HLA-A*24:02,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,261,Dengue virus
+EXTERNAL_03412,ESYIGSINNITKQSA,Human respiratory syncytial virus,T cell assay,1,15,II,0.84,40.34,HLA-DRB1*04:01,0,1,10,4,"{'Positive': 9, 'Positive-High': 1}",Positive,0.9,conflicting,high,1,FALSE,262,Human respiratory syncytial virus
+EXTERNAL_03699,LARVGRERL,Dengue virus,T cell assay,0,9,I,0.68,567.56,HLA-B*07:02,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,263,Dengue virus
+EXTERNAL_02562,QVVTYALNTFTNLVV,Zika virus,T cell assay,1,15,II,4.5,64.61,HLA-DRB1*13:02,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,264,Zika virus
+EXTERNAL_04642,GERVILAGPMPVTHA,Zika virus,T cell assay,0,15,II,0.56,14.66,HLA-DRB1*13:02,0,1,4,1,{'Negative': 4},Negative,1,high,high,0,FALSE,265,Zika virus
+PRIMARY_00274,VVLSFELLHAPATVCGPKKS,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);MHC ligand assay;T cell assay,1,20,II,0.64,8.99,HLA-DRB1*01:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,266,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_01270,SPQDNQMAI,Zika virus,T cell assay,0,9,I,0.15,60.83,HLA-B*07:02,1,0,4,2,"{'Positive-Low': 1, 'Negative': 3}",Negative,0.75,conflicting,high,0,TRUE,267,Zika virus
+EXTERNAL_01410,PSVRNGNEIAACLTK,Zika virus,T cell assay,0,15,II,53,1623.07,HLA-DRB1*13:02,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,268,Zika virus
+EXTERNAL_02327,TKEEFINKVRSNAAL,Zika virus,T cell assay,0,15,II,1.8,61.88,HLA-DRB1*04:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,269,Zika virus
+EXTERNAL_03728,FAGPVSQHNY,Dengue virus,T cell assay,1,10,I,0.68,2501.04,HLA-A*01:01,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,270,Dengue virus
+EXTERNAL_03274,KEMLVTFKNPHAKRQ,Dengue virus,T cell assay,1,15,II,0.04,9.36,HLA-DRB1*15:01,0,1,4,2,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,271,Dengue virus
+EXTERNAL_01027,KTTAMVLSIVSLFPL,Dengue virus,T cell assay,0,15,II,6.9,78.88,HLA-DRB1*07:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,272,Dengue virus
+EXTERNAL_02118,PKPCGIVPAKSVCGPVYCFT,Hepatitis C virus,T cell assay,0,20,II,25,516.23,HLA-DRB1*04:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,273,Hepatitis C virus
+EXTERNAL_02602,VLAEQFKQK,Hepatitis C virus,T cell assay,1,9,I,0.23,83.82,HLA-A*03:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,11,Hepatitis C virus
+EXTERNAL_03443,ARNSTFLIDGPDTSE,Dengue virus,T cell assay,0,15,II,7.7,366.51,HLA-DRB1*03:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,274,Dengue virus
+EXTERNAL_03183,KKLNQLSRKEFDL,Dengue virus,T cell assay,1,13,I,26,20551.63,HLA-A*02:01,1,0,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,275,Dengue virus
+EXTERNAL_01118,FVRAAKTNNSFVVDG,Zika virus,T cell assay,0,15,II,4.5,109.69,HLA-DRB1*04:01,0,1,5,2,"{'Negative': 4, 'Positive': 1}",Negative,0.8,conflicting,high,0,FALSE,276,Zika virus
+EXTERNAL_02975,AVNVTHSGTEIVDLM,Zika virus,T cell assay,1,15,II,16,191.4,HLA-DRB1*07:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,277,Zika virus
+PRIMARY_00795,MFVFLVLLPLVSSQCV,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),B cell assay;Epitope (unspecified assay);T cell assay,0,16,II,16,149.68,HLA-DRB1*01:01,0,1,17,2,"{'Negative': 15, 'Positive-Low': 2}",Negative,0.882352941,conflicting,high,0,FALSE,278,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_01056,SVNMVSRLLLNRFTM,Dengue virus,T cell assay,1,15,II,4.2,72.59,HLA-DRB1*11:01,0,1,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,279,Dengue virus
+EXTERNAL_01124,IGISNRDFV,Dengue virus,T cell assay,1,9,I,13,8852.95,HLA-A*02:01,1,0,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,280,Dengue virus
+PRIMARY_00392,PTNFTISVTTEILPVSMT,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,18,II,2.9,265.81,HLA-DRB1*07:01,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,281,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_04122,LSLTFIRSTTPLIMA,Dengue virus,T cell assay,1,15,II,0.02,4.9,HLA-DRB1*07:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,282,Dengue virus
+EXTERNAL_04505,KLSSLGLNAV,Hepatitis C virus,T cell assay,1,10,I,0.25,26.78,HLA-A*02:01,1,0,34,5,"{'Negative': 8, 'Positive': 25, 'Positive-Low': 1}",Positive,0.735294118,conflicting,high,1,TRUE,283,Hepatitis C virus
+EXTERNAL_02452,EAALENLVILNAASL,Hepatitis C virus,T cell assay,0,15,II,6.7,22.13,HLA-DRB1*01:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,284,Hepatitis C virus
+EXTERNAL_04828,AKWTDIPYLGKREDL,Zika virus,T cell assay,0,15,II,62,3093.14,HLA-DRB1*11:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,285,Zika virus
+EXTERNAL_03908,TYSRCGSGPWITPRC,Hepatitis C virus,T cell assay,0,15,II,77,3764.84,HLA-DRB1*07:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,286,Hepatitis C virus
+PRIMARY_00387,NSPRRARSVA,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,10,I,0.16,69.28,HLA-B*07:02,1,0,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,287,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_04324,LRTEQRKTFVELMKR,Zika virus,T cell assay,0,15,II,27,382.61,HLA-DRB1*07:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,288,Zika virus
+EXTERNAL_05147,WLAYQVASAGITYTD,Zika virus,T cell assay,0,15,II,1.8,9.26,HLA-DRB1*01:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,289,Zika virus
+PRIMARY_00890,GVLTESNKK,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,9,I,1.3,708.73,HLA-A*03:01,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,290,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_04609,YGGPISQHNY,Dengue virus,T cell assay,1,10,I,1.9,7495.63,HLA-A*01:01,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,291,Dengue virus
+EXTERNAL_00997,GALEAEMDGAKGRLS,Zika virus,T cell assay,0,15,II,43,2855.73,HLA-DRB1*03:01,0,1,7,6,"{'Positive-Low': 1, 'Negative': 5, 'Positive': 1}",Negative,0.714285714,conflicting,high,0,TRUE,292,Zika virus
+EXTERNAL_00639,TTLIASLVMLLVHYA,Dengue virus,T cell assay,0,15,II,31,632.36,HLA-DRB1*13:02,0,1,7,3,"{'Positive': 2, 'Negative': 5}",Negative,0.714285714,conflicting,high,0,TRUE,293,Dengue virus
+EXTERNAL_04429,EYVLLLFLL,Hepatitis C virus,T cell assay,1,9,I,0.54,731,HLA-A*24:02,1,0,5,3,{'Positive': 5},Positive,1,high,high,1,FALSE,294,Hepatitis C virus
+PRIMARY_00428,MIAQYTSALLA,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,11,I,4.6,1974.91,HLA-A*02:01,1,0,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,295,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_04207,PRKEPESNLVRSMVT,Zika virus,T cell assay,0,15,II,44,866.72,HLA-DRB1*07:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,296,Zika virus
+EXTERNAL_03293,ELDPPFGDSY,Zika virus,T cell assay,0,10,I,0.09,137.91,HLA-A*01:01,1,0,6,2,"{'Positive-Low': 1, 'Negative': 5}",Negative,0.833333333,conflicting,high,0,TRUE,297,Zika virus
+EXTERNAL_00596,FGESYIVVGAGEKAL,Dengue virus,T cell assay,0,15,II,12,36.62,HLA-DRB1*01:01,0,1,8,3,"{'Positive': 1, 'Negative': 7}",Negative,0.875,conflicting,high,0,TRUE,298,Dengue virus
+EXTERNAL_04926,KTAVEAVNDPRFWALVDKER,Zika virus,T cell assay,0,20,II,11,592.02,HLA-DRB1*03:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,299,Zika virus
+EXTERNAL_03696,AAGIFMTATPPGSRD,Dengue virus,T cell assay,1,15,II,1.3,46.88,HLA-DRB1*04:01,0,1,4,2,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,300,Dengue virus
+EXTERNAL_01035,SWHYDQDHPYKTWAY,Dengue virus,T cell assay,1,15,II,14,692.19,HLA-DRB1*03:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,301,Dengue virus
+EXTERNAL_02595,GKVRKDIPQWQPSKG,Dengue virus,T cell assay,1,15,II,5.2,226.56,HLA-DRB1*03:01,0,1,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,302,Dengue virus
+EXTERNAL_00079,AFLRFLAIPPTAGIL,Dengue virus,T cell assay,1,15,II,0.17,19.25,HLA-DRB1*04:01,0,1,13,3,"{'Positive': 10, 'Negative': 3}",Positive,0.769230769,conflicting,high,1,FALSE,135,Dengue virus
+EXTERNAL_02023,SLCNIFRGSYLAGAS,Zika virus,T cell assay,0,15,II,2.2,46.14,HLA-DRB1*15:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,303,Zika virus
+EXTERNAL_02365,LGLQRLGYVLEEMSRIPGGR,Zika virus,T cell assay,0,20,II,7,110.44,HLA-DRB1*11:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,304,Zika virus
+EXTERNAL_02584,QEGAVHTALAGALEA,Zika virus,T cell assay,0,15,II,28,112.32,HLA-DRB1*01:01,0,1,9,6,"{'Positive-Low': 1, 'Negative': 8}",Negative,0.888888889,conflicting,high,0,TRUE,305,Zika virus
+EXTERNAL_01403,TMPLVMAWRTIMAVL,Dengue virus,T cell assay,1,15,II,0.43,18.78,HLA-DRB1*15:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,306,Dengue virus
+EXTERNAL_01632,STTSEYPSQPSSPPN,Human respiratory syncytial virus,T cell assay,0,15,II,86,7352.89,HLA-DRB1*15:01,0,1,4,1,"{'Negative': 3, 'Positive-Low': 1}",Negative,0.75,conflicting,high,0,FALSE,307,Human respiratory syncytial virus
+EXTERNAL_03013,AVSGVYPMSIPATLF,Dengue virus,T cell assay,0,15,II,11,216.21,HLA-DRB1*04:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,308,Dengue virus
+EXTERNAL_04699,GLFGKGSLVTCAKFA,Zika virus,T cell assay,0,15,II,35,587.67,HLA-DRB1*07:01,0,1,4,4,{'Negative': 4},Negative,1,high,high,0,FALSE,309,Zika virus
+EXTERNAL_03313,FWAKHMWNF,Hepatitis C virus,T cell assay,1,9,I,0.04,21.15,HLA-A*24:02,1,0,5,4,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,310,Hepatitis C virus
+PRIMARY_00186,FLVLLPLVS,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,9,I,3.4,1118.55,HLA-A*02:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,311,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_00625,VATTFVTPM,Dengue virus,T cell assay,1,9,I,2.8,4496.71,HLA-B*07:02,1,0,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,312,Dengue virus
+EXTERNAL_02367,PGAKQNVQLINTNGS,Hepatitis C virus,T cell assay,0,15,II,15,301.75,HLA-DRB1*04:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,313,Hepatitis C virus
+PRIMARY_01165,SEFRVYSSANNCTFEYVS,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,18,II,6,671.9,HLA-DRB1*04:01,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,314,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_01508,NMLKRERNRVSTVQQ,Dengue virus,T cell assay,0,15,II,9.4,200.01,HLA-DRB1*04:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,315,Dengue virus
+EXTERNAL_01341,SQIGAGVYK,Dengue virus,T cell assay,1,9,I,0.58,236.34,HLA-A*03:01,1,0,4,4,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,316,Dengue virus
+EXTERNAL_04686,GVEGEGLHK,Dengue virus,T cell assay,1,9,I,3.1,3332.25,HLA-A*03:01,1,0,10,2,"{'Positive': 7, 'Positive-High': 1, 'Negative': 2}",Positive,0.7,conflicting,high,1,FALSE,317,Dengue virus
+EXTERNAL_04400,KTVWFVPSIKA,Dengue virus,T cell assay,1,11,I,1.7,1118.95,HLA-A*03:01,1,0,4,1,{'Positive': 4},Positive,1,high,high,1,FALSE,318,Dengue virus
+EXTERNAL_03039,MGKREKKQGEFGKAK,Zika virus,T cell assay,0,15,II,87,9230.51,HLA-DRB1*11:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,319,Zika virus
+EXTERNAL_01524,HTWTEQYKF,Dengue virus,T cell assay,1,9,I,0.82,1395.54,HLA-A*24:02,1,0,11,3,"{'Positive': 10, 'Positive-Low': 1}",Positive,0.909090909,conflicting,high,1,FALSE,320,Dengue virus
+EXTERNAL_03255,PGTKVHVEETCGTRGPSLRS,Zika virus,T cell assay,0,20,II,91,4839.82,HLA-DRB1*04:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,321,Zika virus
+EXTERNAL_04239,NVHTWTEQY,Dengue virus,T cell assay,0,9,I,0.84,3236.66,HLA-A*01:01,1,0,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,322,Dengue virus
+EXTERNAL_00103,TDRGWYCDNAGSVSFFPQ,Human respiratory syncytial virus,T cell assay,1,18,II,20,3049.41,HLA-DRB1*03:01,0,1,4,1,{'Positive': 4},Positive,1,high,high,1,FALSE,323,Human respiratory syncytial virus
+EXTERNAL_02953,DFNEMILLTMKNKAW,Dengue virus,T cell assay,1,15,II,0.99,24.89,HLA-DRB1*11:01,0,1,6,3,"{'Positive': 5, 'Negative': 1}",Positive,0.833333333,conflicting,high,1,FALSE,324,Dengue virus
+EXTERNAL_02898,WGNGCGLFGKGSLVTCAKFA,Zika virus,T cell assay,0,20,II,63,500.93,HLA-DRB1*01:01,0,1,7,2,"{'Negative': 5, 'Positive': 2}",Negative,0.714285714,conflicting,high,0,FALSE,325,Zika virus
+EXTERNAL_03422,LGRMDGPRRPVKYEE,Zika virus,T cell assay,0,15,II,67,5803.84,HLA-DRB1*03:01,0,1,5,4,{'Negative': 5},Negative,1,high,high,0,FALSE,326,Zika virus
+EXTERNAL_04012,ASPKGPVIQMYTNVDQDLVG,Hepatitis C virus,T cell assay,0,20,II,6.2,86.19,HLA-DRB1*15:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,327,Hepatitis C virus
+EXTERNAL_04815,PRCLVDYPYRLWHYP,Hepatitis C virus,T cell assay,0,15,II,6.4,295.94,HLA-DRB1*03:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,328,Hepatitis C virus
+PRIMARY_01370,RISGDLKTQIDQV,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Epitope (unspecified assay);T cell assay,0,13,I,13,9192.24,HLA-A*02:01,1,0,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,329,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+PRIMARY_01055,FVSGNCDVVIGIVNNTVY,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),B cell assay;Epitope (unspecified assay);T cell assay,0,18,II,12,629.58,HLA-DRB1*13:02,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,330,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_04602,GCGRGGWSYYAATIR,Zika virus,T cell assay,0,15,II,18,277.11,HLA-DRB1*15:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,331,Zika virus
+EXTERNAL_02093,KSGAIKVLKGFKKEI,Dengue virus,T cell assay,1,15,II,2,43.46,HLA-DRB1*15:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,332,Dengue virus
+EXTERNAL_03002,ISDYFHNTY,Human respiratory syncytial virus,T cell assay,1,9,I,0.01,7.65,HLA-A*01:01,1,0,4,2,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,TRUE,333,Human respiratory syncytial virus
+EXTERNAL_02200,REEFISKVRSNAAIG,Dengue virus,T cell assay,1,15,II,1.4,49.42,HLA-DRB1*04:01,0,1,7,3,"{'Positive': 5, 'Negative': 2}",Positive,0.714285714,conflicting,high,1,FALSE,334,Dengue virus
+EXTERNAL_00524,KLTALGINAV,Hepatitis C virus,T cell assay,1,10,I,0.41,47.7,HLA-A*02:01,1,0,35,4,"{'Positive': 28, 'Positive-Low': 3, 'Negative': 1, 'Positive-Intermediate': 3}",Positive,0.8,conflicting,high,1,FALSE,335,Hepatitis C virus
+EXTERNAL_05419,GYWIESEKNDTWRLK,Zika virus,T cell assay,0,15,II,29,1758.29,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,336,Zika virus
+EXTERNAL_02162,KTPVAKWTDIPYLGK,Zika virus,T cell assay,0,15,II,21,342.25,HLA-DRB1*15:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,337,Zika virus
+EXTERNAL_01631,PTYLTQNPQLGISPS,Human respiratory syncytial virus,T cell assay,0,15,II,12,243.71,HLA-DRB1*04:01,0,1,4,1,"{'Negative': 3, 'Positive-Low': 1}",Negative,0.75,conflicting,high,0,FALSE,338,Human respiratory syncytial virus
+EXTERNAL_04325,RRGPRLGVRA,Hepatitis C virus,T cell assay,1,10,I,18,23916.24,HLA-B*07:02,1,0,7,4,"{'Positive': 6, 'Negative': 1}",Positive,0.857142857,conflicting,high,1,FALSE,339,Hepatitis C virus
+EXTERNAL_03090,TLLVAWRAGLATCGG,Zika virus,T cell assay,0,15,II,1.4,35.36,HLA-DRB1*15:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,340,Zika virus
+EXTERNAL_00758,IFILLMLVTPSMAMR,Dengue virus,T cell assay,0,15,II,1.4,21.5,HLA-DRB1*07:01,0,1,10,3,"{'Positive': 3, 'Negative': 7}",Negative,0.7,conflicting,high,0,TRUE,341,Dengue virus
+EXTERNAL_00938,LVALGINAVAYYRGLD,Hepatitis C virus,T cell assay,0,16,II,1.2,35.69,HLA-DRB1*13:02,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,342,Hepatitis C virus
+EXTERNAL_03030,GRKSIALDLVTEIGR,Dengue virus,T cell assay,0,15,II,0.36,30.08,HLA-DRB1*03:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,343,Dengue virus
+EXTERNAL_05255,RSGEGRLDPYWGDVK,Zika virus,T cell assay,0,15,II,71,3490.16,HLA-DRB1*15:01,0,1,5,4,{'Negative': 5},Negative,1,high,high,0,FALSE,344,Zika virus
+EXTERNAL_04477,VEGELNAILEENGVQLTVVV,Zika virus,T cell assay,0,20,II,8.2,94.86,HLA-DRB1*13:02,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,345,Zika virus
+EXTERNAL_01769,SPVVVGTTDRSGAPTY,Hepatitis C virus,T cell assay,1,16,II,48,2427.09,HLA-DRB1*04:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,346,Hepatitis C virus
+EXTERNAL_03942,YQNKVVRVQRPAKNG,Dengue virus,T cell assay,1,15,II,5.5,91.74,HLA-DRB1*11:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,347,Dengue virus
+EXTERNAL_02176,LLFLLLADARVCSCLWMMLL,Hepatitis C virus,T cell assay,0,20,II,27,1642.78,HLA-DRB1*03:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,348,Hepatitis C virus
+EXTERNAL_03319,EFYQSTCSAVSKGYLSAL,Human respiratory syncytial virus,T cell assay,1,18,II,6.7,729.75,HLA-DRB1*04:01,0,1,4,1,{'Positive': 4},Positive,1,high,high,1,FALSE,349,Human respiratory syncytial virus
+EXTERNAL_02361,SALTLHWFRKGSS,Dengue virus,T cell assay,0,13,I,24,25784.87,HLA-A*03:01,1,0,8,3,{'Negative': 8},Negative,1,high,high,0,FALSE,350,Dengue virus
+EXTERNAL_00094,CVIGGAGNNT,Hepatitis C virus,T cell assay,0,10,I,29,22915.88,HLA-A*02:01,1,0,7,5,"{'Positive': 2, 'Negative': 5}",Negative,0.714285714,conflicting,high,0,TRUE,351,Hepatitis C virus
+PRIMARY_01247,IRQAGVQYSR,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Epitope (unspecified assay);T cell assay,1,10,I,6.8,10152.48,HLA-A*03:01,1,0,15,2,{'Positive': 15},Positive,1,high,high,1,FALSE,352,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+EXTERNAL_02073,SQTWLESREYTKHLI,Zika virus,T cell assay,0,15,II,46,1614.27,HLA-DRB1*11:01,0,1,4,4,{'Negative': 4},Negative,1,high,high,0,FALSE,353,Zika virus
+EXTERNAL_03000,HWIAASIILEFFLIV,Dengue virus,T cell assay,0,15,II,39,708.73,HLA-DRB1*07:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,354,Dengue virus
+PRIMARY_01043,TSLYNLRRGTALAIP,Epstein-Barr virus (Human herpesvirus 4),B cell assay;Epitope (unspecified assay);T cell assay,1,15,II,0.61,17.77,HLA-DRB1*11:01,0,1,4,1,{'Positive': 4},Positive,1,high,high,1,FALSE,355,Epstein-Barr virus (Human herpesvirus 4)
+PRIMARY_00673,VEGFNCYFPLQSYGFQPT,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,18,II,11,750.29,HLA-DRB1*15:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,356,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_03958,WAFCEVLTLATGPVL,Dengue virus,T cell assay,1,15,II,7.7,85.72,HLA-DRB1*07:01,0,1,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,357,Dengue virus
+EXTERNAL_02826,CGGLKNVREVKGLTKGG,Dengue virus,T cell assay,1,17,II,26,739.57,HLA-DRB1*11:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,358,Dengue virus
+EXTERNAL_00766,WGSFKKNGAIKVLRG,Dengue virus,T cell assay,1,15,II,0.05,7.15,HLA-DRB1*13:02,0,1,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,359,Dengue virus
+EXTERNAL_00450,VTDHSGKTV,Zika virus,T cell assay,0,9,I,1.6,5959.42,HLA-A*01:01,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,360,Zika virus
+EXTERNAL_03363,ETACLGKAYA,Dengue virus,T cell assay,1,10,I,3.3,12005.83,HLA-A*01:01,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,361,Dengue virus
+EXTERNAL_00161,VSAVNMTSRMLLNRF,Dengue virus,T cell assay,0,15,II,5.4,91.32,HLA-DRB1*11:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,362,Dengue virus
+EXTERNAL_01325,RGLRTLILAPTRVVA,Dengue virus,T cell assay,1,15,II,0.33,12.78,HLA-DRB1*13:02,0,1,5,2,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,363,Dengue virus
+EXTERNAL_00729,LLSCLTVPASAYQVRNSTGL,Hepatitis C virus,T cell assay,0,20,II,27,390.59,HLA-DRB1*07:01,0,1,4,3,"{'Positive': 1, 'Negative': 3}",Negative,0.75,conflicting,high,0,TRUE,364,Hepatitis C virus
+EXTERNAL_02638,HAVGIFRAAVCTRGV,Hepatitis C virus,T cell assay,1,15,II,7.7,170.52,HLA-DRB1*04:01,0,1,4,2,{'Positive': 4},Positive,1,high,high,1,FALSE,365,Hepatitis C virus
+PRIMARY_00830,RKRISNCVAD,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,10,I,29,30151.39,HLA-B*07:02,1,0,4,1,{'Positive': 4},Positive,1,high,high,1,FALSE,366,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_00563,ALSLTFIRSTIPLVM,Dengue virus,T cell assay,0,15,II,0.15,8.42,HLA-DRB1*07:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,367,Dengue virus
+EXTERNAL_00668,IGGAGNNTLHCPTDCFRKHP,Hepatitis C virus,T cell assay,0,20,II,93,12061.42,HLA-DRB1*03:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,368,Hepatitis C virus
+EXTERNAL_04637,ELLVTFKNAHAKKQE,Dengue virus,T cell assay,1,15,II,0.02,7.4,HLA-DRB1*15:01,0,1,8,3,"{'Positive': 6, 'Negative': 2}",Positive,0.75,conflicting,high,1,FALSE,369,Dengue virus
+EXTERNAL_01699,WVTDHSGKTVWFVPS,Zika virus,T cell assay,0,15,II,58,1645.77,HLA-DRB1*07:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,370,Zika virus
+EXTERNAL_03105,FGAYMSKAHGIDPNIR,Hepatitis C virus,T cell assay,0,16,II,18,504.72,HLA-DRB1*07:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,371,Hepatitis C virus
+EXTERNAL_03799,FTDPSSIAA,Dengue virus,T cell assay,0,9,I,0.05,62.92,HLA-A*01:01,1,0,6,2,"{'Negative': 5, 'Positive-Low': 1}",Negative,0.833333333,conflicting,high,0,FALSE,372,Dengue virus
+EXTERNAL_02811,LLPRRGPRL,Hepatitis C virus,T cell assay,1,9,I,2.4,5719.87,HLA-A*24:02,1,0,7,6,"{'Positive': 5, 'Negative': 2}",Positive,0.714285714,conflicting,high,1,FALSE,373,Hepatitis C virus
+EXTERNAL_05286,KECPLKHRAWNSFLVEDHGF,Zika virus,T cell assay,0,20,II,15,170.11,HLA-DRB1*15:01,0,1,4,2,"{'Negative': 3, 'Positive': 1}",Negative,0.75,conflicting,high,0,FALSE,374,Zika virus
+EXTERNAL_04665,VLKKEVSETQHGTIL,Dengue virus,T cell assay,0,15,II,43,1167.36,HLA-DRB1*04:01,0,1,5,2,{'Negative': 5},Negative,1,high,high,0,FALSE,375,Dengue virus
+EXTERNAL_02879,ASIILEFFLMVLLIP,Dengue virus,T cell assay,0,15,II,67,2910.88,HLA-DRB1*15:01,0,1,5,3,{'Negative': 5},Negative,1,high,high,0,FALSE,376,Dengue virus
+EXTERNAL_03217,EMEEALRGLPVRYMT,Zika virus,T cell assay,0,15,II,6.8,22.32,HLA-DRB1*01:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,377,Zika virus
+EXTERNAL_03359,MGKVRKDIPQWEPSK,Dengue virus,T cell assay,1,15,II,4.8,201.69,HLA-DRB1*03:01,0,1,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,378,Dengue virus
+EXTERNAL_00135,KGSRAIWYMW,Dengue virus,T cell assay,1,10,I,1.5,2928.98,HLA-A*24:02,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,379,Dengue virus
+EXTERNAL_02421,RARRELPRF,Human respiratory syncytial virus,T cell assay,1,9,I,1.7,2028.18,HLA-B*07:02,1,0,6,1,{'Positive': 6},Positive,1,high,high,1,FALSE,380,Human respiratory syncytial virus
+EXTERNAL_03339,KANAITTILTAVTFCFAS,Human respiratory syncytial virus,T cell assay,1,18,II,49,4017.49,HLA-DRB1*07:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,381,Human respiratory syncytial virus
+EXTERNAL_01225,TQGCNCSIYPGHITG,Hepatitis C virus,T cell assay,0,15,II,34,650.09,HLA-DRB1*15:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,382,Hepatitis C virus
+EXTERNAL_04335,ILMGATFAEMNTGGD,Zika virus,T cell assay,0,15,II,51,1189.6,HLA-DRB1*07:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,383,Zika virus
+EXTERNAL_01821,QNAWKVSCTILAAVS,Dengue virus,T cell assay,0,15,II,1.2,45.5,HLA-DRB1*04:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,384,Dengue virus
+EXTERNAL_00536,GEFGKAKGSRAIWYM,Dengue virus,T cell assay,0,15,II,4.7,16.51,HLA-DRB1*01:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,385,Dengue virus
+EXTERNAL_02732,LTPLTLIVAIILLVA,Zika virus,T cell assay,1,15,II,46,279.46,HLA-DRB1*01:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,386,Zika virus
+EXTERNAL_04103,EEPVLVQSYGWNIVRLKSGV,Zika virus,T cell assay,0,20,II,4.5,69.31,HLA-DRB1*07:01,0,1,4,2,"{'Negative': 3, 'Positive': 1}",Negative,0.75,conflicting,high,0,FALSE,387,Zika virus
+EXTERNAL_01187,KKLMSNNVQIVRQQS,Human respiratory syncytial virus,T cell assay,0,15,II,0.24,11.12,HLA-DRB1*13:02,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,388,Human respiratory syncytial virus
+EXTERNAL_00921,CDDCHAQDATSILGI,Hepatitis C virus,T cell assay,1,15,II,66,2243.35,HLA-DRB1*07:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,389,Hepatitis C virus
+EXTERNAL_01071,TPHWNNKEAL,Zika virus,T cell assay,0,10,I,0.13,49.45,HLA-B*07:02,1,0,7,2,"{'Positive-Intermediate': 1, 'Negative': 6}",Negative,0.857142857,conflicting,high,0,TRUE,390,Zika virus
+EXTERNAL_03133,AAAIFMTATPPGTID,Dengue virus,T cell assay,1,15,II,1.6,56.21,HLA-DRB1*04:01,0,1,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,391,Dengue virus
+EXTERNAL_03570,GGLFTSLGKAVHQVF,Dengue virus,T cell assay,1,15,II,0.04,7.64,HLA-DRB1*11:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,392,Dengue virus
+EXTERNAL_03058,AHNGRLITANPVVTK,Dengue virus,T cell assay,0,15,II,1.7,29.01,HLA-DRB1*13:02,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,393,Dengue virus
+PRIMARY_01179,KNLNESLIDLQELGKYEQ,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,18,II,36,5477.53,HLA-DRB1*03:01,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,394,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_04470,YGKAIPLEVIKGG,Hepatitis C virus,T cell assay,1,13,I,36,32825.96,HLA-B*07:02,1,0,3,1,{'Positive': 3},Positive,1,high,high,1,FALSE,395,Hepatitis C virus
+EXTERNAL_01934,QCCDLDPQARVAIKSLTERL,Hepatitis C virus,T cell assay,1,20,II,18,283.64,HLA-DRB1*11:01,0,1,4,3,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,396,Hepatitis C virus
+EXTERNAL_00130,IPKNFAGPV,Dengue virus,T cell assay,0,9,I,0.1,33.88,HLA-B*07:02,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,397,Dengue virus
+PRIMARY_00871,AQYTSALLAGTITSGWTFGA,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,20,II,25,110.02,HLA-DRB1*01:01,0,1,4,1,{'Negative': 4},Negative,1,high,high,0,FALSE,398,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_05183,FGAIYGAAF,Dengue virus,T cell assay,1,9,I,3.2,7983.25,HLA-A*24:02,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,399,Dengue virus
+EXTERNAL_00216,VEFLVQAWKSKKTPMGFSYD,Hepatitis C virus,T cell assay,1,20,II,4.9,73.31,HLA-DRB1*15:01,0,1,4,3,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,400,Hepatitis C virus
+EXTERNAL_01794,MLLILCVTQV,Dengue virus,T cell assay,1,10,I,0.27,29.78,HLA-A*02:01,1,0,4,4,"{'Negative': 1, 'Positive': 3}",Positive,0.75,conflicting,high,1,TRUE,401,Dengue virus
+EXTERNAL_01191,AAEPCDTLLCDIGES,Zika virus,T cell assay,0,15,II,96,6569.93,HLA-DRB1*01:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,402,Zika virus
+PRIMARY_00131,EYHQEGGPDG,Epstein-Barr virus (Human herpesvirus 4),Epitope (unspecified assay);T cell assay,1,10,I,42,38728.63,HLA-A*24:02,1,0,10,1,"{'Positive': 9, 'Positive-Low': 1}",Positive,0.9,conflicting,high,1,FALSE,403,Epstein-Barr virus (Human herpesvirus 4)
+EXTERNAL_00805,KSYAQMWSLMYFHRR,Dengue virus,T cell assay,1,15,II,4.1,102.24,HLA-DRB1*04:01,0,1,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,404,Dengue virus
+EXTERNAL_02287,VKGEPIINFYDPLVFPSD,Human respiratory syncytial virus,T cell assay,1,18,II,0.72,120.01,HLA-DRB1*15:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,405,Human respiratory syncytial virus
+EXTERNAL_03659,VTYECPLLV,Dengue virus,T cell assay,1,9,I,0.48,59.93,HLA-A*02:01,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,406,Dengue virus
+EXTERNAL_02030,KGKVVGLYGNGVVTR,Dengue virus,T cell assay,1,15,II,1.1,7.53,HLA-DRB1*01:01,0,1,5,3,{'Positive': 5},Positive,1,high,high,1,FALSE,407,Dengue virus
+EXTERNAL_00966,LILAPTRVVAAEMEE,Dengue virus,T cell assay,1,15,II,9.1,131.53,HLA-DRB1*13:02,0,1,4,2,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,408,Dengue virus
+EXTERNAL_02372,ETDEDHAHW,Zika virus,T cell assay,0,9,I,0.95,3731.59,HLA-A*01:01,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,409,Zika virus
+EXTERNAL_03270,TPEGIIPTLF,Dengue virus,T cell assay,1,10,I,0.35,679.25,HLA-B*44:03,1,0,8,4,{'Positive': 8},Positive,1,high,high,1,FALSE,410,Dengue virus
+EXTERNAL_05007,MTIDPQVEKKMGQVL,Zika virus,T cell assay,0,15,II,27,1594.49,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,411,Zika virus
+EXTERNAL_00874,LGMMVLKIVRNMEKY,Dengue virus,T cell assay,1,15,II,2.4,43.83,HLA-DRB1*11:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,412,Dengue virus
+EXTERNAL_01594,ILDSFDPLR,Hepatitis C virus,T cell assay,0,9,I,1.6,6035.54,HLA-A*01:01,1,0,5,2,{'Negative': 5},Negative,1,high,high,0,FALSE,413,Hepatitis C virus
+EXTERNAL_03104,TELQLLMQSTPPTNN,Human respiratory syncytial virus,T cell assay,0,15,II,2.4,71.28,HLA-DRB1*04:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,414,Human respiratory syncytial virus
+EXTERNAL_05066,DLGYWIESEKNDTWR,Zika virus,T cell assay,0,15,II,50,3556.37,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,415,Zika virus
+EXTERNAL_01219,NREGKIVGLYGNGVV,Dengue virus,T cell assay,1,15,II,1.7,8.97,HLA-DRB1*01:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,416,Dengue virus
+EXTERNAL_02098,ANPVITESTENSKMM,Zika virus,T cell assay,0,15,II,15,315.88,HLA-DRB1*04:01,0,1,4,4,{'Negative': 4},Negative,1,high,high,0,FALSE,417,Zika virus
+EXTERNAL_04556,GGAYDIIICDECHSTDAT,Hepatitis C virus,T cell assay,1,18,II,23,3420.51,HLA-DRB1*03:01,0,1,8,3,"{'Positive': 6, 'Negative': 2}",Positive,0.75,conflicting,high,1,FALSE,418,Hepatitis C virus
+EXTERNAL_02209,QVLLIAVAVSSAILS,Zika virus,T cell assay,0,15,II,12,129.95,HLA-DRB1*07:01,0,1,7,5,{'Negative': 7},Negative,1,high,high,0,FALSE,419,Zika virus
+EXTERNAL_01235,HLNSTALNCNDSLNT,Hepatitis C virus,T cell assay,0,15,II,34,716.9,HLA-DRB1*13:02,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,420,Hepatitis C virus
+EXTERNAL_03854,ATGPITTLW,Dengue virus,T cell assay,1,9,I,2,4577.26,HLA-A*24:02,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,421,Dengue virus
+EXTERNAL_03561,TGDFDSVI,Hepatitis C virus,T cell assay,1,8,I,28,30821.29,HLA-A*01:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,422,Hepatitis C virus
+EXTERNAL_04862,FLLVAHYAI,Dengue virus,T cell assay,1,9,I,0.07,7.81,HLA-A*02:01,1,0,10,3,{'Positive': 10},Positive,1,high,high,1,FALSE,423,Dengue virus
+EXTERNAL_02750,IWARPDYNPPLLESW,Hepatitis C virus,T cell assay,1,15,II,43,2877.44,HLA-DRB1*03:01,0,1,6,1,{'Positive': 6},Positive,1,high,high,1,FALSE,424,Hepatitis C virus
+EXTERNAL_01571,AISVPAEILRKSRRFAQALP,Hepatitis C virus,T cell assay,0,20,II,1.1,26.34,HLA-DRB1*11:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,425,Hepatitis C virus
+EXTERNAL_02634,PERLASCRPLTDFDQ,Hepatitis C virus,T cell assay,0,15,II,51,2005.03,HLA-DRB1*11:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,426,Hepatitis C virus
+EXTERNAL_01876,TPMLRHSI,Dengue virus,T cell assay,1,8,I,0.07,21.22,HLA-B*07:02,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,427,Dengue virus
+EXTERNAL_01039,RAAQKRTAA,Zika virus,T cell assay,0,9,I,0.18,78.57,HLA-B*07:02,1,0,4,2,{'Negative': 4},Negative,1,high,high,0,FALSE,428,Zika virus
+EXTERNAL_02503,GAVYTFYGMWPLLLL,Hepatitis C virus,T cell assay,0,15,II,8.8,28.7,HLA-DRB1*01:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,429,Hepatitis C virus
+EXTERNAL_05290,DNIYLQDGLIASLYR,Zika virus,T cell assay,0,15,II,3.9,96.97,HLA-DRB1*04:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,430,Zika virus
+EXTERNAL_00883,AKLAILMGATFAEMN,Zika virus,T cell assay,0,15,II,9.2,30.03,HLA-DRB1*01:01,0,1,5,4,{'Negative': 5},Negative,1,high,high,0,FALSE,431,Zika virus
+EXTERNAL_01770,KGYTKGGPGHEEPVL,Zika virus,T cell assay,0,15,II,94,5193.85,HLA-DRB1*01:01,0,1,5,4,{'Negative': 5},Negative,1,high,high,0,FALSE,432,Zika virus
+EXTERNAL_01895,KYMDYLSTQVRYLGEEGSTP,Zika virus,T cell assay,0,20,II,1.8,33.73,HLA-DRB1*07:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,433,Zika virus
+EXTERNAL_05293,SSSPEVEEARTLRVLSMVGD,Zika virus,T cell assay,0,20,II,22,300.4,HLA-DRB1*07:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,434,Zika virus
+EXTERNAL_01473,KKSGGFRIVNMLKRG,Zika virus,T cell assay,0,15,II,3.1,55.08,HLA-DRB1*11:01,0,1,4,4,"{'Negative': 3, 'Positive': 1}",Negative,0.75,conflicting,high,0,FALSE,435,Zika virus
+EXTERNAL_00912,KRWGQLKKNKAIKIL,Dengue virus,T cell assay,1,15,II,0.05,7.45,HLA-DRB1*13:02,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,436,Dengue virus
+EXTERNAL_02085,YLDKQSDTQY,Zika virus,T cell assay,0,10,I,0.04,39.83,HLA-A*01:01,1,0,8,3,"{'Positive-Low': 1, 'Negative': 7}",Negative,0.875,conflicting,high,0,TRUE,437,Zika virus
+EXTERNAL_03967,NLKYSVIVTVHTGDQ,Dengue virus,T cell assay,0,15,II,1.8,61.16,HLA-DRB1*04:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,438,Dengue virus
+EXTERNAL_03731,AAAIFMTATPPGTTD,Dengue virus,T cell assay,1,15,II,2.6,74.14,HLA-DRB1*04:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,391,Dengue virus
+EXTERNAL_02571,CYDAGCAWYELTPAETSV,Hepatitis C virus,T cell assay,0,18,II,24,869.99,HLA-DRB1*01:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,439,Hepatitis C virus
+EXTERNAL_02446,VSGVYPMSIPATLFV,Dengue virus,T cell assay,0,15,II,7.7,171.94,HLA-DRB1*04:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,440,Dengue virus
+EXTERNAL_02580,FNMLKRERNRVSTPQ,Dengue virus,T cell assay,1,15,II,2.3,42.32,HLA-DRB1*11:01,0,1,5,3,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,441,Dengue virus
+EXTERNAL_03137,SYSMCTGKF,Dengue virus,T cell assay,1,9,I,0.1,63.32,HLA-A*24:02,1,0,6,2,"{'Positive': 5, 'Positive-High': 1}",Positive,0.833333333,conflicting,high,1,FALSE,442,Dengue virus
+EXTERNAL_01889,TTASGRVIEEWCCRECTMPP,Zika virus,T cell assay,0,20,II,90,4770.72,HLA-DRB1*15:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,443,Zika virus
+EXTERNAL_03123,VYHGAGNKTL,Hepatitis C virus,T cell assay,1,10,I,0.62,890.31,HLA-A*24:02,1,0,7,2,{'Positive': 7},Positive,1,high,high,1,FALSE,444,Hepatitis C virus
+EXTERNAL_02110,KLQDCTMLV,Hepatitis C virus,T cell assay,1,9,I,0.05,6.33,HLA-A*02:01,1,0,5,2,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,TRUE,445,Hepatitis C virus
+EXTERNAL_04299,QDKPTVDIELVTTTV,Zika virus,T cell assay,0,15,II,50,3564.11,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,446,Zika virus
+EXTERNAL_00332,GIFFVLMRNKGIGKM,Zika virus,T cell assay,0,15,II,0.05,8.01,HLA-DRB1*11:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,447,Zika virus
+EXTERNAL_01422,NAGKSTTNIMITTIIIVI,Human respiratory syncytial virus,T cell assay,1,18,II,24,1751.28,HLA-DRB1*07:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,448,Human respiratory syncytial virus
+EXTERNAL_04161,TPEGIIPAL,Dengue virus,T cell assay,1,9,I,0.31,174.98,HLA-B*07:02,1,0,12,9,"{'Positive': 9, 'Negative': 3}",Positive,0.75,conflicting,high,1,FALSE,449,Dengue virus
+EXTERNAL_02787,ETDENRAKV,Zika virus,T cell assay,0,9,I,1.2,4241.92,HLA-A*01:01,1,0,9,2,"{'Positive-Low': 1, 'Negative': 8}",Negative,0.888888889,conflicting,high,0,TRUE,450,Zika virus
+EXTERNAL_04508,GRHLIFCHSKRKCDELATKL,Hepatitis C virus,T cell assay,1,20,II,22,378.21,HLA-DRB1*11:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,451,Hepatitis C virus
+EXTERNAL_03773,FQRVLIFILLTAIAP,Dengue virus,T cell assay,0,15,II,35,167.49,HLA-DRB1*01:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,452,Dengue virus
+EXTERNAL_00235,TETTILDVDL,Dengue virus,T cell assay,1,10,I,1.5,4106.09,HLA-B*44:03,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,453,Dengue virus
+EXTERNAL_00251,VLEDGVNYATGNLPG,Hepatitis C virus,T cell assay,0,15,II,61,4862.12,HLA-DRB1*03:01,0,1,5,3,"{'Negative': 4, 'Positive': 1}",Negative,0.8,conflicting,high,0,FALSE,454,Hepatitis C virus
+EXTERNAL_04287,STMPLVMAWRTIMAV,Dengue virus,T cell assay,1,15,II,0.58,22.16,HLA-DRB1*15:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,455,Dengue virus
+PRIMARY_01453,IRMMESARPEDVSFQ,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);MHC ligand assay;T cell assay,0,15,II,25,97.54,HLA-DRB1*01:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,456,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+PRIMARY_01184,PCSFGGVSVITPGTNTSN,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,18,II,68,6312.79,HLA-DRB1*04:01,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,457,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_00537,IVSTAAQTFLATCIN,Hepatitis C virus,T cell assay,0,15,II,14,163.67,HLA-DRB1*07:01,0,1,5,2,{'Negative': 5},Negative,1,high,high,0,FALSE,458,Hepatitis C virus
+PRIMARY_01164,TASALGKLQDVVNQNAQALN,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,20,II,11,114.86,HLA-DRB1*13:02,0,1,4,1,{'Negative': 4},Negative,1,high,high,0,FALSE,459,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_00064,PNKPGDEYLYGGGCA,Zika virus,T cell assay,0,15,II,94,11391.19,HLA-DRB1*15:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,460,Zika virus
+EXTERNAL_03367,TIKKSKAINVLRGFR,Dengue virus,T cell assay,1,15,II,0.91,20.12,HLA-DRB1*13:02,0,1,4,2,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,461,Dengue virus
+EXTERNAL_01509,RDWAHNGL,Hepatitis C virus,T cell assay,1,8,I,18,24225.38,HLA-B*07:02,1,0,10,7,"{'Positive': 8, 'Negative': 2}",Positive,0.8,conflicting,high,1,FALSE,462,Hepatitis C virus
+EXTERNAL_05105,KQAWEDGICGISSVS,Zika virus,T cell assay,0,15,II,84,2116.15,HLA-DRB1*01:01,0,1,5,4,{'Negative': 5},Negative,1,high,high,0,FALSE,463,Zika virus
+EXTERNAL_01546,DQRPYCWHYPPKPCG,Hepatitis C virus,T cell assay,0,15,II,71,3531.18,HLA-DRB1*15:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,464,Hepatitis C virus
+EXTERNAL_03977,KNGAIKVLRGFKKEI,Dengue virus,T cell assay,1,15,II,1.9,42.15,HLA-DRB1*15:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,332,Dengue virus
+EXTERNAL_04953,RTAGIIIMMIPTVMA,Dengue virus,T cell assay,0,15,II,1.4,51.03,HLA-DRB1*04:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,465,Dengue virus
+EXTERNAL_01276,WSIHAHHQW,Dengue virus,T cell assay,1,9,I,1.6,3086.89,HLA-A*24:02,1,0,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,466,Dengue virus
+EXTERNAL_04524,LIASLVMLLVHYAII,Dengue virus,T cell assay,0,15,II,39,854.23,HLA-DRB1*15:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,467,Dengue virus
+EXTERNAL_01617,NTRPPLGNWFGCTWMNSTGF,Hepatitis C virus,T cell assay,0,20,II,72,1775.7,HLA-DRB1*15:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,468,Hepatitis C virus
+EXTERNAL_01861,IYRILQRGL,Dengue virus,T cell assay,1,9,I,2.5,6016.44,HLA-A*24:02,1,0,10,2,"{'Positive': 7, 'Negative': 3}",Positive,0.7,conflicting,high,1,FALSE,469,Dengue virus
+EXTERNAL_00506,GDEEKYMDYLSTQVR,Zika virus,T cell assay,0,15,II,20,309.59,HLA-DRB1*15:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,470,Zika virus
+EXTERNAL_04038,CLIPTAMAF,Dengue virus,T cell assay,1,9,I,0.66,973.61,HLA-A*24:02,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,471,Dengue virus
+EXTERNAL_00621,AAEMEEALRGLPVRY,Zika virus,T cell assay,0,15,II,13,42.48,HLA-DRB1*01:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,472,Zika virus
+EXTERNAL_02563,WNNKEALVEFKDAHA,Zika virus,T cell assay,0,15,II,16,234.49,HLA-DRB1*15:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,473,Zika virus
+EXTERNAL_03493,KILIGVIITWIGMNS,Dengue virus,T cell assay,1,15,II,16,237.36,HLA-DRB1*15:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,474,Dengue virus
+EXTERNAL_03218,PISYLKGSSGGPLLC,Hepatitis C virus,T cell assay,0,15,II,8.1,89.92,HLA-DRB1*07:01,0,1,4,2,{'Negative': 4},Negative,1,high,high,0,FALSE,475,Hepatitis C virus
+EXTERNAL_01887,LEGEPGDPDLSDGSWSTVSS,Hepatitis C virus,T cell assay,0,20,II,98,17398.63,HLA-DRB1*03:01,0,1,4,3,{'Negative': 4},Negative,1,high,high,0,FALSE,476,Hepatitis C virus
+EXTERNAL_01204,VSGVYPLSIPATLFV,Dengue virus,T cell assay,0,15,II,9.3,30.12,HLA-DRB1*01:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,440,Dengue virus
+EXTERNAL_01920,CLRRRVTRKHMILVV,Dengue virus,T cell assay,1,15,II,7.5,122.06,HLA-DRB1*11:01,0,1,6,2,{'Positive': 6},Positive,1,high,high,1,FALSE,477,Dengue virus
+PRIMARY_00956,AFDERRNKYLEEHPS,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);T cell assay,0,15,II,80,6770.4,HLA-DRB1*11:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,478,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+EXTERNAL_03044,TSGTYVSAIAQAKASQE,Dengue virus,T cell assay,1,17,II,5.7,36.86,HLA-DRB1*01:01,0,1,4,2,{'Positive': 4},Positive,1,high,high,1,FALSE,479,Dengue virus
+EXTERNAL_03026,YPWPLYGNEGCGWAGWLLSP,Hepatitis C virus,T cell assay,0,20,II,78,2371.64,HLA-DRB1*13:02,0,1,4,3,"{'Positive': 1, 'Negative': 3}",Negative,0.75,conflicting,high,0,TRUE,480,Hepatitis C virus
+EXTERNAL_04094,RGKSLLFKTSAGVNM,Dengue virus,T cell assay,1,15,II,0.97,17.3,HLA-DRB1*07:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,481,Dengue virus
+EXTERNAL_02916,KMLLNRFTTRHRKPT,Dengue virus,T cell assay,1,15,II,2.8,52.41,HLA-DRB1*15:01,0,1,5,2,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,482,Dengue virus
+EXTERNAL_00956,AGVIVMLIPTAIAFH,Dengue virus,T cell assay,0,15,II,0.84,40.15,HLA-DRB1*04:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,483,Dengue virus
+EXTERNAL_01564,LMMTTIGVV,Dengue virus,T cell assay,0,9,I,0.17,18.67,HLA-A*02:01,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,484,Dengue virus
+EXTERNAL_03031,VIQLSRKTFETEFQK,Zika virus,T cell assay,0,15,II,18,961.3,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,485,Zika virus
+EXTERNAL_03457,VLTIKGLNPTAIFLT,Dengue virus,T cell assay,0,15,II,1.5,26.62,HLA-DRB1*13:02,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,19,Dengue virus
+PRIMARY_00349,TAGSLQGQWRGAA,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Epitope (unspecified assay);T cell assay,0,13,I,23,27092.17,HLA-B*07:02,1,0,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,486,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+EXTERNAL_01814,GTKVHVEETCGTRGP,Zika virus,T cell assay,0,15,II,68,2723.52,HLA-DRB1*04:01,0,1,5,4,{'Negative': 5},Negative,1,high,high,0,FALSE,487,Zika virus
+EXTERNAL_01565,MALSIVSLF,Dengue virus,T cell assay,1,9,I,0.37,392.46,HLA-A*24:02,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,488,Dengue virus
+EXTERNAL_03364,KETLVTFKNPHAKKQ,Dengue virus,T cell assay,1,15,II,0.08,11.95,HLA-DRB1*15:01,0,1,5,3,{'Positive': 5},Positive,1,high,high,1,FALSE,271,Dengue virus
+EXTERNAL_05187,RHQDELIGRARVSPGAGWSI,Zika virus,T cell assay,0,20,II,45,1099.17,HLA-DRB1*11:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,489,Zika virus
+EXTERNAL_00200,NPKASLLSL,Human respiratory syncytial virus,T cell assay,1,9,I,0.05,15.28,HLA-B*07:02,1,0,12,7,"{'Positive': 11, 'Negative': 1}",Positive,0.916666667,conflicting,high,1,FALSE,490,Human respiratory syncytial virus
+EXTERNAL_00376,SLLAPGAKQNVQLIN,Hepatitis C virus,T cell assay,0,15,II,44,1105.6,HLA-DRB1*13:02,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,491,Hepatitis C virus
+EXTERNAL_04062,EYRIMLSVHGSQHSG,Zika virus,T cell assay,0,15,II,0.5,33.08,HLA-DRB1*04:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,492,Zika virus
+PRIMARY_00752,EADYFEYHQEGGPDGE,Epstein-Barr virus (Human herpesvirus 4),B cell assay;Epitope (unspecified assay);T cell assay,1,16,II,76,6251.08,HLA-DRB1*15:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,493,Epstein-Barr virus (Human herpesvirus 4)
+EXTERNAL_00393,KRVIQLSRKTFETEFQKTKH,Zika virus,T cell assay,0,20,II,15,877.87,HLA-DRB1*03:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,494,Zika virus
+EXTERNAL_05072,IRPRKEPESNLVRSM,Zika virus,T cell assay,0,15,II,73,6727.61,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,495,Zika virus
+EXTERNAL_01896,SYAMCTNTFVLKKEV,Dengue virus,T cell assay,1,15,II,12,248.76,HLA-DRB1*04:01,0,1,4,1,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,496,Dengue virus
+EXTERNAL_02552,KGKVIGLYGNGVVTK,Dengue virus,T cell assay,1,15,II,0.42,18.07,HLA-DRB1*15:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,407,Dengue virus
+PRIMARY_01126,AHFPREGVF,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);MHC ligand assay;T cell assay,1,9,I,5.6,14319.69,HLA-A*24:02,1,0,5,4,"{'Positive-Low': 1, 'Positive': 4}",Positive,0.8,conflicting,high,1,FALSE,497,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+PRIMARY_01097,TGLRNIPSIQSRG,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);T cell assay,1,13,I,55,36103.15,HLA-A*03:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,498,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+EXTERNAL_00338,KKNLPFVMALGLTAV,Zika virus,T cell assay,0,15,II,2.8,12.3,HLA-DRB1*01:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,499,Zika virus
+EXTERNAL_05232,MEAEEVLEMQDLWLL,Zika virus,T cell assay,1,15,II,39,848.72,HLA-DRB1*15:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,500,Zika virus
+EXTERNAL_05377,KKDLAAMLRIINARK,Zika virus,T cell assay,1,15,II,0.31,13.28,HLA-DRB1*11:01,0,1,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,501,Zika virus
+EXTERNAL_03577,LVAHYMYLIPGLQAA,Zika virus,T cell assay,1,15,II,1.4,8.38,HLA-DRB1*01:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,502,Zika virus
+EXTERNAL_03121,DLRLMANAICSSVPV,Zika virus,T cell assay,0,15,II,3.2,47,HLA-DRB1*13:02,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,503,Zika virus
+EXTERNAL_04573,CAEAPNMKIIGNRIE,Zika virus,T cell assay,0,15,II,24,329.62,HLA-DRB1*07:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,504,Zika virus
+EXTERNAL_03692,VRLLSKPWDVVTGVT,Zika virus,T cell assay,0,15,II,35,963.37,HLA-DRB1*11:01,0,1,4,4,{'Negative': 4},Negative,1,high,high,0,FALSE,505,Zika virus
+EXTERNAL_05323,ATCINGVCWTVYHGA,Hepatitis C virus,T cell assay,1,15,II,45,930.11,HLA-DRB1*07:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,506,Hepatitis C virus
+EXTERNAL_02942,FKKNGAIKVLRGFKK,Dengue virus,T cell assay,1,15,II,2.9,42.28,HLA-DRB1*13:02,0,1,3,1,{'Positive': 3},Positive,1,high,high,1,FALSE,507,Dengue virus
+EXTERNAL_00945,EEETPVECFEPSMLKKKQLT,Zika virus,T cell assay,0,20,II,40,903.18,HLA-DRB1*11:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,508,Zika virus
+EXTERNAL_00390,AVVSCAEAPNMKIIG,Zika virus,T cell assay,0,15,II,29,420.8,HLA-DRB1*07:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,509,Zika virus
+EXTERNAL_02510,FEIMDLEKRHVLGRL,Dengue virus,T cell assay,0,15,II,9.7,162.13,HLA-DRB1*11:01,0,1,11,4,{'Negative': 11},Negative,1,high,high,0,FALSE,510,Dengue virus
+EXTERNAL_05103,IKKFKKDLAAMLRII,Zika virus,T cell assay,0,15,II,0.27,24.77,HLA-DRB1*04:01,0,1,6,5,"{'Positive': 1, 'Negative': 5}",Negative,0.833333333,conflicting,high,0,TRUE,511,Zika virus
+EXTERNAL_00931,FPDSNSPIM,Zika virus,T cell assay,0,9,I,0.32,183.04,HLA-B*07:02,1,0,7,2,"{'Positive-Intermediate': 1, 'Negative': 6}",Negative,0.857142857,conflicting,high,0,TRUE,512,Zika virus
+EXTERNAL_00706,ITLLCLIPTV,Dengue virus,T cell assay,1,10,I,0.12,12.97,HLA-A*02:01,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,513,Dengue virus
+EXTERNAL_00601,ILRHPGFTIMAAILA,Dengue virus,T cell assay,1,15,II,2.6,11.85,HLA-DRB1*01:01,0,1,9,5,"{'Positive': 7, 'Negative': 2}",Positive,0.777777778,conflicting,high,1,FALSE,514,Dengue virus
+EXTERNAL_02275,TERFQEAIDNLAVLM,Zika virus,T cell assay,0,15,II,0.35,29.37,HLA-DRB1*04:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,515,Zika virus
+EXTERNAL_02870,KMDIGVPLL,Dengue virus,T cell assay,0,9,I,0.14,14.38,HLA-A*02:01,1,0,4,4,"{'Negative': 3, 'Positive': 1}",Negative,0.75,conflicting,high,0,FALSE,516,Dengue virus
+EXTERNAL_04537,WGTFKKSGAIKVLRG,Dengue virus,T cell assay,1,15,II,0.05,6.77,HLA-DRB1*07:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,359,Dengue virus
+PRIMARY_00367,SNNSIAIPTNFTISVTT,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);MHC ligand assay;T cell assay,0,17,II,16,362.77,HLA-DRB1*13:02,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,517,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_02077,IMAVGIVSILLSSLL,Dengue virus,T cell assay,1,15,II,24,405.59,HLA-DRB1*15:01,0,1,4,4,{'Positive': 4},Positive,1,high,high,1,FALSE,518,Dengue virus
+EXTERNAL_00698,GGGTGETLGEKWKARLNQMS,Zika virus,T cell assay,0,20,II,44,1063.47,HLA-DRB1*11:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,519,Zika virus
+EXTERNAL_01828,GYISTRVEMGEAAAI,Zika virus,T cell assay,0,15,II,4.8,115.11,HLA-DRB1*04:01,0,1,5,4,"{'Negative': 4, 'Positive': 1}",Negative,0.8,conflicting,high,0,FALSE,520,Zika virus
+EXTERNAL_05114,TFTNLVVQLIRNMEA,Zika virus,T cell assay,0,15,II,8.2,26.58,HLA-DRB1*01:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,521,Zika virus
+EXTERNAL_04554,EYVEIRQVGDFHYVTGMTTD,Hepatitis C virus,T cell assay,0,20,II,15,199.08,HLA-DRB1*07:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,522,Hepatitis C virus
+EXTERNAL_04962,AWLMWLSEIEPARIA,Zika virus,T cell assay,0,15,II,7.9,87.54,HLA-DRB1*07:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,523,Zika virus
+EXTERNAL_01626,TPEGIIPSMF,Dengue virus,T cell assay,1,10,I,0.51,1118.73,HLA-B*44:03,1,0,13,8,"{'Positive': 11, 'Negative': 1, 'Positive-Low': 1}",Positive,0.846153846,conflicting,high,1,FALSE,410,Dengue virus
+EXTERNAL_01024,VLVGGVLAALAAYCLSTGCV,Hepatitis C virus,T cell assay,0,20,II,11,46.16,HLA-DRB1*01:01,0,1,4,3,{'Negative': 4},Negative,1,high,high,0,FALSE,524,Hepatitis C virus
+EXTERNAL_00015,LGKREDLWCGSLIGHRPRTT,Zika virus,T cell assay,0,20,II,54,1490.13,HLA-DRB1*11:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,525,Zika virus
+PRIMARY_00665,MIAQYTSALLAGTITSGW,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,18,II,5.3,441.03,HLA-DRB1*15:01,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,526,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_04839,CCRECTMPPLSFRAK,Zika virus,T cell assay,0,15,II,58,502.85,HLA-DRB1*01:01,0,1,5,4,{'Negative': 5},Negative,1,high,high,0,FALSE,527,Zika virus
+PRIMARY_00440,RLQSLQTY,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,8,I,5.4,7449.06,HLA-A*03:01,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,528,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_00459,MPVTVASAAQ,Dengue virus,T cell assay,1,10,I,2,2763.11,HLA-B*07:02,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,529,Dengue virus
+EXTERNAL_00139,AGVIFTFVLLLSGQI,Dengue virus,T cell assay,1,15,II,23,83.62,HLA-DRB1*01:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,530,Dengue virus
+EXTERNAL_03844,LMRRGDLPVWLAYRV,Dengue virus,T cell assay,1,15,II,12,161.73,HLA-DRB1*15:01,0,1,7,2,{'Positive': 7},Positive,1,high,high,1,FALSE,531,Dengue virus
+EXTERNAL_00697,REDLWCGSL,Dengue virus,T cell assay,1,9,I,1.6,4536.83,HLA-B*44:03,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,532,Dengue virus
+PRIMARY_01238,FQPTNGVGY,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,9,I,3.2,11816.77,HLA-A*01:01,1,0,8,3,{'Positive': 8},Positive,1,high,high,1,FALSE,533,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_00715,KTSIGLLCVTASSAL,Dengue virus,T cell assay,1,15,II,4.2,50.11,HLA-DRB1*07:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,534,Dengue virus
+EXTERNAL_04563,TWLESREYTKHLIRV,Zika virus,T cell assay,0,15,II,36,725.9,HLA-DRB1*15:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,535,Zika virus
+EXTERNAL_00383,SCLLQTAISALEGDL,Zika virus,T cell assay,0,15,II,19,67.51,HLA-DRB1*01:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,536,Zika virus
+EXTERNAL_00533,IAFLRFLAIPPTAGV,Dengue virus,T cell assay,1,15,II,0.19,19.92,HLA-DRB1*04:01,0,1,6,4,"{'Positive': 5, 'Negative': 1}",Positive,0.833333333,conflicting,high,1,FALSE,537,Dengue virus
+EXTERNAL_01457,GFADLMGYIPL,Hepatitis C virus,T cell assay,1,11,I,7.3,17676.23,HLA-A*24:02,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,538,Hepatitis C virus
+EXTERNAL_02243,NTLTCYIKARAACRAAGLQD,Hepatitis C virus,T cell assay,0,20,II,3.3,60.48,HLA-DRB1*11:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,539,Hepatitis C virus
+EXTERNAL_01480,LAAVSVSPL,Dengue virus,T cell assay,0,9,I,0.61,494.28,HLA-B*07:02,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,540,Dengue virus
+EXTERNAL_00171,YPWPLYGNEGCGWAG,Hepatitis C virus,T cell assay,0,15,II,65,2506.03,HLA-DRB1*13:02,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,541,Hepatitis C virus
+EXTERNAL_01858,TPLTLIVAIIL,Zika virus,T cell assay,0,11,I,2.1,3042.72,HLA-B*07:02,1,0,6,1,"{'Positive-Intermediate': 1, 'Negative': 5}",Negative,0.833333333,conflicting,high,0,TRUE,542,Zika virus
+PRIMARY_00172,ILYDKEEIRRIWRQANNG,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);T cell assay,0,18,II,3.7,326.4,HLA-DRB1*11:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,543,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+PRIMARY_01058,NFSQILPDPSKPSKRSF,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,17,II,5.5,324.92,HLA-DRB1*03:01,0,1,4,1,{'Positive': 4},Positive,1,high,high,1,FALSE,544,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_04307,WIWFCLLLLAAGVGIYLLPN,Hepatitis C virus,T cell assay,0,20,II,49,293.5,HLA-DRB1*01:01,0,1,4,3,{'Negative': 4},Negative,1,high,high,0,FALSE,545,Hepatitis C virus
+EXTERNAL_02701,PVTKWTDIPYLGKRE,Zika virus,T cell assay,0,15,II,38,782.54,HLA-DRB1*15:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,546,Zika virus
+EXTERNAL_04170,WGTIKKSKAINVLRG,Dengue virus,T cell assay,1,15,II,0.24,11.62,HLA-DRB1*13:02,0,1,7,5,"{'Positive': 6, 'Negative': 1}",Positive,0.857142857,conflicting,high,1,FALSE,547,Dengue virus
+EXTERNAL_01930,VFTDNSSPPAV,Hepatitis C virus,T cell assay,1,11,I,2.2,8420.47,HLA-A*01:01,1,0,5,2,"{'Positive': 4, 'Negative': 1}",Positive,0.8,conflicting,high,1,FALSE,548,Hepatitis C virus
+EXTERNAL_04446,GYKVLVLNPSVAATLGFGAY,Hepatitis C virus,T cell assay,1,20,II,0.06,8.12,HLA-DRB1*13:02,0,1,4,2,{'Positive': 4},Positive,1,high,high,1,FALSE,549,Hepatitis C virus
+PRIMARY_00326,KLQDVVNQN,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,9,I,19,22661.92,HLA-A*03:01,1,0,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,550,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_05518,TDATSILGIGTVLDQAETAG,Hepatitis C virus,T cell assay,1,20,II,22,450.21,HLA-DRB1*04:01,0,1,4,3,"{'Positive': 3, 'Negative': 1}",Positive,0.75,conflicting,high,1,FALSE,551,Hepatitis C virus
+EXTERNAL_05305,DKLRLKGVSYSLCTA,Zika virus,T cell assay,0,15,II,23,481.24,HLA-DRB1*11:01,0,1,4,4,"{'Positive-Low': 1, 'Negative': 3}",Negative,0.75,conflicting,high,0,TRUE,552,Zika virus
+PRIMARY_00282,LGVYYHKNNKSWMESEFRVY,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,20,II,15,166.21,HLA-DRB1*15:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,553,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_00310,RRPEGRTWAQPGYPW,Hepatitis C virus,T cell assay,0,15,II,82,5710.9,HLA-DRB1*15:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,554,Hepatitis C virus
+EXTERNAL_01075,LMGATFAEMNTGGDV,Zika virus,T cell assay,0,15,II,50,1463.16,HLA-DRB1*04:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,555,Zika virus
+EXTERNAL_00501,TTAIIQDATSQIKNT,Human respiratory syncytial virus,T cell assay,1,15,II,1.3,57.22,HLA-DRB1*03:01,0,1,4,1,"{'Positive-Low': 3, 'Negative': 1}",Positive-Low,0.75,conflicting,high,1,FALSE,556,Human respiratory syncytial virus
+EXTERNAL_00529,ILRRHVGPGEGAVQWMNRLI,Hepatitis C virus,T cell assay,0,20,II,54,854.45,HLA-DRB1*15:01,0,1,5,3,{'Negative': 5},Negative,1,high,high,0,FALSE,557,Hepatitis C virus
+PRIMARY_00240,YGVSPTKLNDLCFTN,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);MHC ligand assay;T cell assay,0,15,II,50,1153.74,HLA-DRB1*07:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,558,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_04592,KPWDVIPMV,Dengue virus,T cell assay,1,9,I,1.4,1546.05,HLA-B*07:02,1,0,7,2,{'Positive': 7},Positive,1,high,high,1,FALSE,559,Dengue virus
+EXTERNAL_00714,EPGQLKLNWF,Dengue virus,T cell assay,1,10,I,6.5,12446.14,HLA-B*07:02,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,560,Dengue virus
+EXTERNAL_03332,PPLSFWAKDGCWYGM,Zika virus,T cell assay,0,15,II,52,2156.08,HLA-DRB1*11:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,561,Zika virus
+EXTERNAL_02112,VPAAYVAQGY,Hepatitis C virus,T cell assay,1,10,I,1.5,5813.39,HLA-A*01:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,562,Hepatitis C virus
+EXTERNAL_02334,QWISSECTTPC,Hepatitis C virus,T cell assay,1,11,I,15,26221.51,HLA-A*24:02,1,0,4,3,{'Positive': 4},Positive,1,high,high,1,FALSE,563,Hepatitis C virus
+EXTERNAL_01362,GIMILKLLTDFQSHQ,Dengue virus,T cell assay,0,15,II,4.5,109.73,HLA-DRB1*04:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,564,Dengue virus
+EXTERNAL_01817,FGDSYIIIGVEPGQL,Dengue virus,T cell assay,0,15,II,1.4,51.47,HLA-DRB1*04:01,0,1,11,4,{'Negative': 11},Negative,1,high,high,0,FALSE,565,Dengue virus
+EXTERNAL_04545,IELEPPFGDSYIVIG,Dengue virus,T cell assay,0,15,II,83,9270.25,HLA-DRB1*03:01,0,1,8,3,{'Negative': 8},Negative,1,high,high,0,FALSE,566,Dengue virus
+EXTERNAL_00534,ALYDVVSKL,Hepatitis C virus,T cell assay,1,9,I,0.17,18.06,HLA-A*02:01,1,0,10,6,"{'Positive': 8, 'Positive-Low': 2}",Positive,0.8,conflicting,high,1,FALSE,567,Hepatitis C virus
+EXTERNAL_01015,NRVWIEENDHMEDKT,Zika virus,T cell assay,0,15,II,25,1416.52,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,568,Zika virus
+EXTERNAL_01713,SPEVEEARTLRVLSM,Zika virus,T cell assay,0,15,II,12,134.46,HLA-DRB1*07:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,569,Zika virus
+EXTERNAL_02705,HIDLLVGSATLCSAL,Hepatitis C virus,T cell assay,0,15,II,4.3,106.48,HLA-DRB1*04:01,0,1,6,3,"{'Negative': 5, 'Positive': 1}",Negative,0.833333333,conflicting,high,0,FALSE,570,Hepatitis C virus
+EXTERNAL_00726,YGMWPLLLLLLALPQRAYAL,Hepatitis C virus,T cell assay,0,20,II,17,185.11,HLA-DRB1*15:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,571,Hepatitis C virus
+EXTERNAL_02109,MSYTWTGALVTPCAAE,Hepatitis C virus,T cell assay,1,16,II,7.9,207.78,HLA-DRB1*07:01,0,1,4,1,{'Positive': 4},Positive,1,high,high,1,FALSE,572,Hepatitis C virus
+EXTERNAL_00080,FRAAVCTRGVAKAVDFI,Hepatitis C virus,T cell assay,0,17,II,25,726.56,HLA-DRB1*11:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,573,Hepatitis C virus
+EXTERNAL_00851,NYFEWPPHA,Human respiratory syncytial virus,T cell assay,1,9,I,1.9,4200.95,HLA-A*24:02,1,0,4,1,{'Positive': 4},Positive,1,high,high,1,FALSE,574,Human respiratory syncytial virus
+EXTERNAL_01612,VPLLAMGCY,Dengue virus,T cell assay,1,9,I,4.2,7899.9,HLA-B*07:02,1,0,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,575,Dengue virus
+EXTERNAL_04732,RNSTHEMYWVSGAKS,Zika virus,T cell assay,0,15,II,24,326.36,HLA-DRB1*07:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,576,Zika virus
+EXTERNAL_00181,SVKKNLPFVMALGLT,Zika virus,T cell assay,0,15,II,5,71.7,HLA-DRB1*13:02,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,577,Zika virus
+EXTERNAL_00110,GHVTSTLTSLFRPGASQK,Hepatitis C virus,T cell assay,1,18,II,2.5,236.92,HLA-DRB1*11:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,578,Hepatitis C virus
+EXTERNAL_02622,KTIAMVLSIVSLFPL,Dengue virus,T cell assay,0,15,II,11,116.71,HLA-DRB1*07:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,272,Dengue virus
+EXTERNAL_00973,DPASIAARGY,Dengue virus,T cell assay,1,10,I,5.9,17362.33,HLA-A*01:01,1,0,4,4,{'Positive': 4},Positive,1,high,high,1,FALSE,579,Dengue virus
+EXTERNAL_03207,AETQHGTTVVKVKYE,Dengue virus,T cell assay,0,15,II,33,539.42,HLA-DRB1*07:01,0,1,8,3,"{'Positive': 1, 'Negative': 7}",Negative,0.875,conflicting,high,0,TRUE,580,Dengue virus
+EXTERNAL_03057,RTGLDFSDLY,Zika virus,T cell assay,0,10,I,0.08,118.05,HLA-A*01:01,1,0,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,581,Zika virus
+EXTERNAL_00865,EARRSRRAVTLPSHS,Zika virus,T cell assay,0,15,II,16,326.8,HLA-DRB1*04:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,582,Zika virus
+EXTERNAL_04434,MCAVHPTLVFDITKL,Hepatitis C virus,T cell assay,0,15,II,4.6,54.78,HLA-DRB1*07:01,0,1,4,2,{'Negative': 4},Negative,1,high,high,0,FALSE,583,Hepatitis C virus
+EXTERNAL_05500,KLQTRSQTWLESREY,Zika virus,T cell assay,0,15,II,57,1830.8,HLA-DRB1*15:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,584,Zika virus
+EXTERNAL_04371,TNSVTNIELEPPFGD,Dengue virus,T cell assay,0,15,II,83,9369.17,HLA-DRB1*03:01,0,1,8,3,{'Negative': 8},Negative,1,high,high,0,FALSE,585,Dengue virus
+EXTERNAL_05241,AVLVAMILGGFSMSD,Zika virus,T cell assay,0,15,II,17,58.65,HLA-DRB1*01:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,586,Zika virus
+EXTERNAL_04439,DNQLTYVVIAILTVV,Dengue virus,T cell assay,0,15,II,37,659.72,HLA-DRB1*07:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,587,Dengue virus
+EXTERNAL_02938,YQNKVVKVLRPTPKG,Dengue virus,T cell assay,0,15,II,3.8,65.07,HLA-DRB1*11:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,588,Dengue virus
+EXTERNAL_04453,GPRLGVRAT,Hepatitis C virus,T cell assay,1,9,I,0.12,45.3,HLA-B*07:02,1,0,47,22,"{'Positive': 37, 'Negative': 8, 'Positive-Low': 2}",Positive,0.787234043,conflicting,high,1,FALSE,589,Hepatitis C virus
+PRIMARY_01214,YNYLYRLFRKSNLKPFERD,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,19,II,1,42.42,HLA-DRB1*11:01,0,1,5,1,{'Positive': 5},Positive,1,high,high,1,FALSE,590,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_00589,SWMVRILIGLLVLWI,Dengue virus,T cell assay,0,15,II,38,191.06,HLA-DRB1*01:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,591,Dengue virus
+EXTERNAL_00375,EAKQPATLR,Dengue virus,T cell assay,1,9,I,17,21385.97,HLA-A*03:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,592,Dengue virus
+PRIMARY_01245,VVNQNAQALNTLVKQLSSNF,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,20,II,6.5,103.93,HLA-DRB1*11:01,0,1,4,1,{'Negative': 4},Negative,1,high,high,0,FALSE,593,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_04723,AWLAIRAMVVPRTDN,Zika virus,T cell assay,0,15,II,0.32,5.34,HLA-DRB1*01:01,0,1,5,4,"{'Negative': 4, 'Positive': 1}",Negative,0.8,conflicting,high,0,FALSE,594,Zika virus
+EXTERNAL_00937,RSEKVTNWLQSNGWD,Zika virus,T cell assay,0,15,II,65,2630.47,HLA-DRB1*15:01,0,1,5,4,{'Negative': 5},Negative,1,high,high,0,FALSE,595,Zika virus
+EXTERNAL_01470,KPWDVVPTV,Dengue virus,T cell assay,1,9,I,0.74,649.43,HLA-B*07:02,1,0,6,1,{'Positive': 6},Positive,1,high,high,1,FALSE,559,Dengue virus
+EXTERNAL_04384,DMGKVRKDTQEWKPS,Zika virus,T cell assay,0,15,II,5.1,218.07,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,596,Zika virus
+EXTERNAL_00238,CPTDCFRKHPDATYS,Hepatitis C virus,T cell assay,0,15,II,62,2287.29,HLA-DRB1*13:02,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,597,Hepatitis C virus
+EXTERNAL_01496,KVRKDIQQW,Dengue virus,T cell assay,1,9,I,7.2,19480.93,HLA-B*44:03,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,598,Dengue virus
+EXTERNAL_04312,SVIDCNTCVTQTVDFSLDPT,Hepatitis C virus,T cell assay,1,20,II,80,2795.02,HLA-DRB1*07:01,0,1,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,599,Hepatitis C virus
+PRIMARY_01409,TICIGYHANNSTDTVDT,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);T cell assay,0,17,II,41,1151.09,HLA-DRB1*15:01,0,1,14,5,{'Negative': 14},Negative,1,high,high,0,FALSE,600,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+EXTERNAL_02844,VFPDLGVRVCEKMALYDVVT,Hepatitis C virus,T cell assay,0,20,II,19,1142.13,HLA-DRB1*03:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,601,Hepatitis C virus
+EXTERNAL_01971,GFTGDFDSV,Hepatitis C virus,T cell assay,1,9,I,8.3,19277.13,HLA-A*24:02,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,602,Hepatitis C virus
+EXTERNAL_01412,RRALKDGVATGGHAV,Zika virus,T cell assay,0,15,II,64,2096.52,HLA-DRB1*07:01,0,1,5,4,{'Negative': 5},Negative,1,high,high,0,FALSE,603,Zika virus
+EXTERNAL_01499,MSTNPKPQRKTKRNTNRR,Hepatitis C virus,T cell assay,0,18,II,71,9199.41,HLA-DRB1*11:01,0,1,5,3,"{'Positive': 1, 'Negative': 4}",Negative,0.8,conflicting,high,0,FALSE,83,Hepatitis C virus
+EXTERNAL_01629,QLFTFSPRH,Hepatitis C virus,T cell assay,1,9,I,1.3,713.96,HLA-A*03:01,1,0,34,1,"{'Positive': 32, 'Negative': 2}",Positive,0.941176471,conflicting,high,1,FALSE,604,Hepatitis C virus
+EXTERNAL_03038,NRGIIKTFSNGCDY,Human respiratory syncytial virus,T cell assay,1,14,I,1.4,5093.18,HLA-A*01:01,1,0,2,1,{'Positive-High': 2},Positive-High,1,high,high,1,FALSE,605,Human respiratory syncytial virus
+EXTERNAL_03639,ALWDVPAPKEVKKGE,Zika virus,T cell assay,0,15,II,73,6686.97,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,606,Zika virus
+PRIMARY_01311,DTVLEKNVTVTHSVN,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);T cell assay,0,15,II,21,373.01,HLA-DRB1*13:02,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,607,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+EXTERNAL_01455,GWDNWEEVPFCSHHFNKLHL,Zika virus,T cell assay,0,20,II,12,155.35,HLA-DRB1*07:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,608,Zika virus
+EXTERNAL_00971,VGWPAPQGSRSLTPC,Hepatitis C virus,T cell assay,0,15,II,90,3543.23,HLA-DRB1*01:01,0,1,4,2,{'Negative': 4},Negative,1,high,high,0,FALSE,609,Hepatitis C virus
+EXTERNAL_05203,SPSKLASAI,Dengue virus,T cell assay,0,9,I,0.03,9.6,HLA-B*07:02,1,0,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,610,Dengue virus
+EXTERNAL_00306,NPEIEDDIF,Dengue virus,T cell assay,1,9,I,16,22444.51,HLA-B*07:02,1,0,4,4,{'Positive': 4},Positive,1,high,high,1,FALSE,611,Dengue virus
+EXTERNAL_02827,SSASQLSAPSLKATCTANHD,Hepatitis C virus,T cell assay,0,20,II,45,1004.71,HLA-DRB1*04:01,0,1,4,3,{'Negative': 4},Negative,1,high,high,0,FALSE,612,Hepatitis C virus
+EXTERNAL_03471,SRNLGKVIDTLTCGFADLMG,Hepatitis C virus,T cell assay,0,20,II,67,5129.07,HLA-DRB1*03:01,0,1,3,1,{'Negative': 3},Negative,1,high,high,0,FALSE,613,Hepatitis C virus
+EXTERNAL_03301,GVDPNIRTGV,Hepatitis C virus,T cell assay,1,10,I,4.8,2135.51,HLA-A*02:01,1,0,7,5,"{'Positive': 6, 'Negative': 1}",Positive,0.857142857,conflicting,high,1,TRUE,614,Hepatitis C virus
+EXTERNAL_03433,ALGIMVLKIVRSMEK,Dengue virus,T cell assay,0,15,II,2.1,38.25,HLA-DRB1*11:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,615,Dengue virus
+EXTERNAL_02021,TVTRNAGLVKRRGGG,Zika virus,T cell assay,0,15,II,20,331.73,HLA-DRB1*13:02,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,616,Zika virus
+EXTERNAL_05436,NTREGYRTQMKGPWH,Zika virus,T cell assay,0,15,II,18,324.22,HLA-DRB1*11:01,0,1,4,2,"{'Negative': 3, 'Positive': 1}",Negative,0.75,conflicting,high,0,FALSE,617,Zika virus
+EXTERNAL_04104,IYVILTILTIIGLIA,Dengue virus,T cell assay,0,15,II,62,2309.8,HLA-DRB1*13:02,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,618,Dengue virus
+EXTERNAL_00027,DGPCKVPAQMAVDMQ,Zika virus,T cell assay,0,15,II,64,694.35,HLA-DRB1*01:01,0,1,4,4,{'Negative': 4},Negative,1,high,high,0,FALSE,619,Zika virus
+EXTERNAL_04430,LTLSPYYKRYISWCL,Hepatitis C virus,T cell assay,0,15,II,3.1,57.39,HLA-DRB1*15:01,0,1,4,2,{'Negative': 4},Negative,1,high,high,0,FALSE,620,Hepatitis C virus
+EXTERNAL_04086,WGNGCGLFGKGSLVT,Zika virus,T cell assay,0,15,II,59,1981.22,HLA-DRB1*15:01,0,1,4,4,{'Negative': 4},Negative,1,high,high,0,FALSE,621,Zika virus
+EXTERNAL_05239,RTGLLVISGVFPVSI,Dengue virus,T cell assay,1,15,II,0.33,12.75,HLA-DRB1*13:02,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,622,Dengue virus
+EXTERNAL_03435,FAEMNTGGDVAHLAL,Zika virus,T cell assay,0,15,II,59,2058.54,HLA-DRB1*13:02,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,623,Zika virus
+PRIMARY_00460,GWYGYHHQNEQGSGY,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);T cell assay,0,15,II,64,2382.93,HLA-DRB1*04:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,624,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+EXTERNAL_00785,VVLVGLMALTLSPYYKRYIS,Hepatitis C virus,T cell assay,0,20,II,5.3,77.68,HLA-DRB1*15:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,625,Hepatitis C virus
+EXTERNAL_04076,GLSTLPGNPAIASLMAFT,Hepatitis C virus,T cell assay,0,18,II,24,842.45,HLA-DRB1*01:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,626,Hepatitis C virus
+EXTERNAL_05440,GVFHTMWHV,Dengue virus,T cell assay,0,9,I,0.06,7.58,HLA-A*02:01,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,627,Dengue virus
+PRIMARY_01107,MIAQYTSALL,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,1,10,I,0.76,675.79,HLA-B*07:02,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,628,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_03906,ARGSPPSVASSSASQLSAPS,Hepatitis C virus,T cell assay,0,20,II,30,438.15,HLA-DRB1*07:01,0,1,5,4,"{'Negative': 4, 'Positive': 1}",Negative,0.8,conflicting,high,0,FALSE,629,Hepatitis C virus
+PRIMARY_00174,IKQYGDCLGDIAARDLIC,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,18,II,47,7090.54,HLA-DRB1*03:01,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,630,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_00054,LTVTQLLRRLHQWISSECTT,Hepatitis C virus,T cell assay,0,20,II,8.3,126.04,HLA-DRB1*11:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,631,Hepatitis C virus
+EXTERNAL_02792,QWIAASIILEFFLMV,Dengue virus,T cell assay,0,15,II,40,731.3,HLA-DRB1*07:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,354,Dengue virus
+EXTERNAL_00993,ARHTPVNSW,Hepatitis C virus,T cell assay,1,9,I,3.8,11744.62,HLA-B*44:03,1,0,4,2,{'Positive': 4},Positive,1,high,high,1,FALSE,632,Hepatitis C virus
+EXTERNAL_01540,ATGPISTLW,Dengue virus,T cell assay,1,9,I,2.3,5225.25,HLA-A*24:02,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,421,Dengue virus
+EXTERNAL_03864,CGSVFLVGQLFTFSPRRHWT,Hepatitis C virus,T cell assay,0,20,II,6.6,104.8,HLA-DRB1*11:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,633,Hepatitis C virus
+EXTERNAL_02543,LMKRGDLPV,Dengue virus,T cell assay,0,9,I,1.7,305.38,HLA-A*02:01,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,634,Dengue virus
+PRIMARY_01269,CCSCLKGCCSCGSCCKFD,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,18,II,95,11689.09,HLA-DRB1*01:01,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,635,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+PRIMARY_00091,EIIRMMESARPED,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);T cell assay,1,13,I,75,40007.22,HLA-A*03:01,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,636,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+EXTERNAL_00679,TTTEFKNAITNAKII,Human respiratory syncytial virus,T cell assay,1,15,II,1.8,60.98,HLA-DRB1*04:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,637,Human respiratory syncytial virus
+EXTERNAL_05047,VREDYSLECDPAVIG,Zika virus,T cell assay,0,15,II,17,349.75,HLA-DRB1*04:01,0,1,5,2,"{'Negative': 4, 'Positive': 1}",Negative,0.8,conflicting,high,0,FALSE,638,Zika virus
+EXTERNAL_04957,ILRNPGFALLAGFMA,Dengue virus,T cell assay,1,15,II,0.85,6.91,HLA-DRB1*01:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,639,Dengue virus
+EXTERNAL_03365,LPVWLAYKVA,Dengue virus,T cell assay,1,10,I,1.6,1869.13,HLA-B*07:02,1,0,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,640,Dengue virus
+EXTERNAL_04079,ISEMGANFKADRVID,Zika virus,T cell assay,0,15,II,24,1336.26,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,641,Zika virus
+EXTERNAL_05184,FPYLVAYQATVCARA,Hepatitis C virus,T cell assay,1,15,II,1.3,34.02,HLA-DRB1*15:01,0,1,4,2,{'Positive': 4},Positive,1,high,high,1,FALSE,642,Hepatitis C virus
+EXTERNAL_02506,IPITAAAWY,Dengue virus,T cell assay,1,9,I,3.2,5505.76,HLA-B*07:02,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,643,Dengue virus
+EXTERNAL_02776,LLAPITAYAQQTRGL,Hepatitis C virus,T cell assay,0,15,II,14,196.85,HLA-DRB1*15:01,0,1,5,2,{'Negative': 5},Negative,1,high,high,0,FALSE,644,Hepatitis C virus
+PRIMARY_00024,DYQPLGTQDQSLYLG,Epstein-Barr virus (Human herpesvirus 4),Epitope (unspecified assay);T cell assay,1,15,II,40,1072.81,HLA-DRB1*04:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,645,Epstein-Barr virus (Human herpesvirus 4)
+EXTERNAL_02949,AWSSGFDWVTDHSGK,Zika virus,T cell assay,0,15,II,48,1412.42,HLA-DRB1*04:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,646,Zika virus
+EXTERNAL_00507,FIAFLRFLAIPPTAG,Dengue virus,T cell assay,1,15,II,0.43,31.11,HLA-DRB1*04:01,0,1,14,4,"{'Positive': 13, 'Negative': 1}",Positive,0.928571429,conflicting,high,1,FALSE,647,Dengue virus
+EXTERNAL_01862,VVLSGKPAIIPDREVLYREF,Hepatitis C virus,T cell assay,1,20,II,0.23,27.07,HLA-DRB1*03:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,648,Hepatitis C virus
+EXTERNAL_01605,GYISTRVGM,Dengue virus,T cell assay,1,9,I,1.9,4065.99,HLA-A*24:02,1,0,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,649,Dengue virus
+EXTERNAL_04338,VAFLRFLTI,Dengue virus,T cell assay,1,9,I,1.3,2293.64,HLA-A*24:02,1,0,7,4,"{'Positive': 6, 'Negative': 1}",Positive,0.857142857,conflicting,high,1,FALSE,650,Dengue virus
+EXTERNAL_00264,FTGDFDSVI,Hepatitis C virus,T cell assay,1,9,I,2.5,9528.86,HLA-A*01:01,1,0,9,3,"{'Positive': 7, 'Positive-Low': 1, 'Negative': 1}",Positive,0.777777778,conflicting,high,1,FALSE,651,Hepatitis C virus
+EXTERNAL_05240,PTGSGKSTKVPAAYAAQGYK,Hepatitis C virus,T cell assay,0,20,II,63,503.35,HLA-DRB1*01:01,0,1,5,3,{'Negative': 5},Negative,1,high,high,0,FALSE,652,Hepatitis C virus
+EXTERNAL_02235,VIGLYGNGV,Dengue virus,T cell assay,1,9,I,4.1,1569.41,HLA-A*02:01,1,0,9,2,"{'Positive': 8, 'Negative': 1}",Positive,0.888888889,conflicting,high,1,FALSE,653,Dengue virus
+EXTERNAL_01548,HSDLGYWIESEKNDT,Zika virus,T cell assay,0,15,II,75,4153.49,HLA-DRB1*15:01,0,1,4,2,"{'Negative': 3, 'Positive': 1}",Negative,0.75,conflicting,high,0,FALSE,654,Zika virus
+EXTERNAL_05074,AMVLSIVSLFPLCLS,Dengue virus,T cell assay,0,15,II,9.1,133.18,HLA-DRB1*15:01,0,1,12,3,"{'Positive': 3, 'Negative': 9}",Negative,0.75,conflicting,high,0,TRUE,655,Dengue virus
+EXTERNAL_04688,KIIGNRIERIRSEHA,Zika virus,T cell assay,0,15,II,0.74,17.68,HLA-DRB1*13:02,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,656,Zika virus
+EXTERNAL_03238,TILIKVEYKGEDAPC,Dengue virus,T cell assay,0,15,II,44,1469.81,HLA-DRB1*11:01,0,1,7,3,{'Negative': 7},Negative,1,high,high,0,FALSE,657,Dengue virus
+EXTERNAL_02702,HPNIEEVAL,Hepatitis C virus,T cell assay,1,9,I,0.3,156.3,HLA-B*07:02,1,0,31,17,"{'Positive': 27, 'Negative': 3, 'Positive-Intermediate': 1}",Positive,0.870967742,conflicting,high,1,FALSE,658,Hepatitis C virus
+PRIMARY_00939,GDLKTQIDQVESTA,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Epitope (unspecified assay);T cell assay,0,14,I,63,37510.37,HLA-A*02:01,1,0,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,659,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+EXTERNAL_04512,GGGVEGLGLQRLGYV,Zika virus,T cell assay,0,15,II,30,752.19,HLA-DRB1*11:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,660,Zika virus
+EXTERNAL_00349,GNPSPSQVSTTSEYP,Human respiratory syncytial virus,T cell assay,0,15,II,88,6573.34,HLA-DRB1*07:01,0,1,4,1,"{'Positive-Low': 1, 'Negative': 3}",Negative,0.75,conflicting,high,0,TRUE,661,Human respiratory syncytial virus
+EXTERNAL_01200,IGHRPRTTWAENIKN,Zika virus,T cell assay,0,15,II,46,949.31,HLA-DRB1*07:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,662,Zika virus
+EXTERNAL_02782,ITLLCLIPTVMAFHL,Dengue virus,T cell assay,0,15,II,0.79,38.7,HLA-DRB1*04:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,663,Dengue virus
+EXTERNAL_01074,MSFRDLGRVM,Dengue virus,T cell assay,1,10,I,1.6,1843.92,HLA-B*07:02,1,0,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,664,Dengue virus
+EXTERNAL_04362,VMAVGLVSILASSLL,Dengue virus,T cell assay,1,15,II,4.8,56.25,HLA-DRB1*07:01,0,1,3,3,{'Positive': 3},Positive,1,high,high,1,FALSE,665,Dengue virus
+PRIMARY_01288,VAHKSCLPACVYGP,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);T cell assay,1,14,I,40,34048.68,HLA-A*01:01,1,0,9,1,"{'Positive': 8, 'Positive-Low': 1}",Positive,0.888888889,conflicting,high,1,FALSE,666,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+EXTERNAL_02041,WDEMWKCLVRLKPTL,Hepatitis C virus,T cell assay,1,15,II,4.3,72.93,HLA-DRB1*11:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,667,Hepatitis C virus
+EXTERNAL_00137,GAVQNEITL,Hepatitis C virus,T cell assay,1,9,I,13,18929.48,HLA-B*07:02,1,0,19,4,"{'Positive': 16, 'Negative': 1, 'Positive-Low': 2}",Positive,0.842105263,conflicting,high,1,FALSE,668,Hepatitis C virus
+EXTERNAL_03676,NEGLGWTGW,Hepatitis C virus,T cell assay,1,9,I,0.04,35.92,HLA-B*44:03,1,0,4,3,{'Positive': 4},Positive,1,high,high,1,FALSE,669,Hepatitis C virus
+EXTERNAL_05326,DAVSRSQRRGRTGRGR,Hepatitis C virus,T cell assay,0,16,II,40,2262.24,HLA-DRB1*11:01,0,1,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,670,Hepatitis C virus
+EXTERNAL_03423,TYTDRRWCFDGTTNN,Zika virus,T cell assay,0,15,II,58,4488.64,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,671,Zika virus
+EXTERNAL_03421,LIRNMEAEEVLEMQDLWLLR,Zika virus,T cell assay,0,20,II,33,2050.42,HLA-DRB1*03:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,672,Zika virus
+EXTERNAL_02830,RRGPRLGVRATRKT,Hepatitis C virus,T cell assay,1,14,I,30,28855.24,HLA-A*03:01,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,673,Hepatitis C virus
+EXTERNAL_05131,EVNKIKSAL,Human respiratory syncytial virus,T cell assay,1,9,I,1.7,2205.71,HLA-B*07:02,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,674,Human respiratory syncytial virus
+EXTERNAL_05280,REDLLVTFKTAHAKK,Dengue virus,T cell assay,1,15,II,0.1,12.24,HLA-DRB1*15:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,675,Dengue virus
+EXTERNAL_04805,GLLFMILTV,Dengue virus,T cell assay,1,9,I,0.11,11.75,HLA-A*02:01,1,0,7,3,"{'Positive': 6, 'Negative': 1}",Positive,0.857142857,conflicting,high,1,FALSE,676,Dengue virus
+EXTERNAL_04788,LNDTWKIEKASFIEV,Dengue virus,T cell assay,1,15,II,3.6,14.22,HLA-DRB1*01:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,677,Dengue virus
+EXTERNAL_02911,LVMKDGRVL,Dengue virus,T cell assay,0,9,I,0.47,306.62,HLA-B*07:02,1,0,2,2,{'Negative': 2},Negative,1,high,high,0,FALSE,678,Dengue virus
+EXTERNAL_03147,ETLMLVALLGAMTAG,Dengue virus,T cell assay,0,15,II,2.6,11.7,HLA-DRB1*01:01,0,1,4,2,"{'Positive': 1, 'Negative': 3}",Negative,0.75,conflicting,high,0,TRUE,679,Dengue virus
+EXTERNAL_03653,VLIPEPEKQRSPQDN,Zika virus,T cell assay,0,15,II,49,3492.08,HLA-DRB1*03:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,680,Zika virus
+EXTERNAL_00174,GVLFTFVLLLSGQIT,Dengue virus,T cell assay,0,15,II,11,35.45,HLA-DRB1*01:01,0,1,12,4,"{'Negative': 10, 'Positive': 2}",Negative,0.833333333,conflicting,high,0,FALSE,681,Dengue virus
+EXTERNAL_02637,AGADTGTPHWNNKEA,Zika virus,T cell assay,0,15,II,97,18297.77,HLA-DRB1*11:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,682,Zika virus
+EXTERNAL_04971,RNPGFALLAGFMAYM,Dengue virus,T cell assay,1,15,II,0.33,5.42,HLA-DRB1*01:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,683,Dengue virus
+EXTERNAL_01841,ASSLLRNDVPMAGPL,Dengue virus,T cell assay,1,15,II,0.88,47.52,HLA-DRB1*03:01,0,1,6,4,"{'Positive': 5, 'Negative': 1}",Positive,0.833333333,conflicting,high,1,FALSE,684,Dengue virus
+PRIMARY_01162,AAFEDLRVL,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);MHC ligand assay;T cell assay,1,9,I,4.4,8173.44,HLA-B*07:02,1,0,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,685,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+EXTERNAL_04667,EARMLLDNIYLQDGL,Zika virus,T cell assay,0,15,II,1.3,57.4,HLA-DRB1*03:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,686,Zika virus
+EXTERNAL_03067,GRMLNILNRRRRTAG,Dengue virus,T cell assay,1,15,II,0.43,14.94,HLA-DRB1*11:01,0,1,4,4,{'Positive': 4},Positive,1,high,high,1,FALSE,687,Dengue virus
+EXTERNAL_05395,HPGFTILALF,Dengue virus,T cell assay,1,10,I,0.32,182.97,HLA-B*07:02,1,0,5,4,{'Positive': 5},Positive,1,high,high,1,FALSE,688,Dengue virus
+EXTERNAL_01917,LTEIASLPTYLSSRA,Dengue virus,T cell assay,1,15,II,0.67,35.93,HLA-DRB1*04:01,0,1,4,2,{'Positive': 4},Positive,1,high,high,1,FALSE,689,Dengue virus
+EXTERNAL_03196,IPYLGKREDL,Zika virus,T cell assay,0,10,I,0.16,67.5,HLA-B*07:02,1,0,6,1,"{'Positive-Intermediate': 1, 'Negative': 5}",Negative,0.833333333,conflicting,high,0,TRUE,690,Zika virus
+PRIMARY_00827,MIWHSNLNDATYQRTRALVR,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);T cell assay,1,20,II,13,166.58,HLA-DRB1*07:01,0,1,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,691,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+EXTERNAL_04221,LKYSWKTWGKAKMLS,Dengue virus,T cell assay,1,15,II,5.7,95.8,HLA-DRB1*11:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,692,Dengue virus
+EXTERNAL_02221,MALVAFLRFLTIPPT,Dengue virus,T cell assay,1,15,II,3.6,92.31,HLA-DRB1*04:01,0,1,15,4,"{'Positive': 13, 'Negative': 2}",Positive,0.866666667,conflicting,high,1,FALSE,693,Dengue virus
+EXTERNAL_04293,SYFVRAAKTNNSFVVDGDTL,Zika virus,T cell assay,0,20,II,1.5,65.42,HLA-DRB1*04:01,0,1,4,2,"{'Negative': 3, 'Positive': 1}",Negative,0.75,conflicting,high,0,FALSE,694,Zika virus
+EXTERNAL_00839,TSREVLLLTIGLSLV,Dengue virus,T cell assay,0,15,II,12,131.17,HLA-DRB1*07:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,695,Dengue virus
+PRIMARY_00581,YRFNGIGVTQNVLYENQK,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,18,II,14,1233.04,HLA-DRB1*04:01,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,696,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_00656,TPEGIIPALF,Dengue virus,T cell assay,1,10,I,0.24,420.81,HLA-B*44:03,1,0,21,8,"{'Negative': 5, 'Positive': 16}",Positive,0.761904762,conflicting,high,1,TRUE,410,Dengue virus
+EXTERNAL_01390,RGTLLVAWRAGLATC,Zika virus,T cell assay,1,15,II,0.69,24.24,HLA-DRB1*15:01,0,1,2,1,{'Positive': 2},Positive,1,high,high,1,FALSE,697,Zika virus
+EXTERNAL_04934,KMLKEMGEV,Human respiratory syncytial virus,T cell assay,1,9,I,0.17,19.08,HLA-A*02:01,1,0,6,3,"{'Positive': 5, 'Negative': 1}",Positive,0.833333333,conflicting,high,1,FALSE,698,Human respiratory syncytial virus
+EXTERNAL_00705,LRTVILAPTRVVAAE,Zika virus,T cell assay,0,15,II,0.4,17.97,HLA-DRB1*15:01,0,1,6,2,"{'Positive': 1, 'Negative': 5}",Negative,0.833333333,conflicting,high,0,TRUE,699,Zika virus
+EXTERNAL_04675,HKKGEARRSRRAVTL,Zika virus,T cell assay,0,15,II,21,412.56,HLA-DRB1*11:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,700,Zika virus
+EXTERNAL_01434,KKLMSNNVQIVRQQSYSI,Human respiratory syncytial virus,T cell assay,1,18,II,0.68,60.43,HLA-DRB1*13:02,0,1,3,1,{'Positive': 3},Positive,1,high,high,1,FALSE,701,Human respiratory syncytial virus
+EXTERNAL_02846,FTPSPVVVGTTDRSG,Hepatitis C virus,T cell assay,0,15,II,55,1789.98,HLA-DRB1*04:01,0,1,6,2,{'Negative': 6},Negative,1,high,high,0,FALSE,702,Hepatitis C virus
+EXTERNAL_05361,KLVALGINAV,Hepatitis C virus,T cell assay,1,10,I,0.28,30.96,HLA-A*02:01,1,0,387,107,"{'Positive': 292, 'Negative': 29, 'Positive-Low': 52, 'Positive-High': 1, 'Positive-Intermediate': 13}",Positive,0.754521964,conflicting,high,1,FALSE,335,Hepatitis C virus
+EXTERNAL_04927,TITTGSPITYS,Hepatitis C virus,T cell assay,1,11,I,9.1,21492.92,HLA-A*01:01,1,0,2,2,{'Positive': 2},Positive,1,high,high,1,FALSE,703,Hepatitis C virus
+EXTERNAL_02590,LWTALVSLTCSNTIF,Dengue virus,T cell assay,1,15,II,0.68,14.45,HLA-DRB1*07:01,0,1,3,2,{'Positive': 3},Positive,1,high,high,1,FALSE,704,Dengue virus
+EXTERNAL_01570,VIEEWCCRECTMPPL,Zika virus,T cell assay,0,15,II,85,5582.18,HLA-DRB1*07:01,0,1,5,4,{'Negative': 5},Negative,1,high,high,0,FALSE,705,Zika virus
+PRIMARY_00537,ERRNKYLEEHPSAGKDPK,Influenza A virus (A/Puerto Rico/8/1934 H1N1),Epitope (unspecified assay);T cell assay,0,18,II,15,1278.36,HLA-DRB1*04:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,706,Influenza A virus (A/Puerto Rico/8/1934 H1N1)
+EXTERNAL_02758,NAGLVKRRGGGTGET,Zika virus,T cell assay,0,15,II,64,3360.17,HLA-DRB1*11:01,0,1,2,1,{'Negative': 2},Negative,1,high,high,0,FALSE,707,Zika virus
+EXTERNAL_02502,SINMLKRVRNRVSTG,Dengue virus,T cell assay,1,15,II,0.15,9.69,HLA-DRB1*11:01,0,1,6,3,{'Positive': 6},Positive,1,high,high,1,FALSE,708,Dengue virus
+EXTERNAL_03235,VTTTVSNMAEVRSYC,Zika virus,T cell assay,0,15,II,27,1617.18,HLA-DRB1*03:01,0,1,5,5,"{'Positive-Low': 1, 'Negative': 4}",Negative,0.8,conflicting,high,0,TRUE,709,Zika virus
+PRIMARY_01304,SSTASALGKLQDVVNQNA,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),Epitope (unspecified assay);T cell assay,0,18,II,59,5185.71,HLA-DRB1*04:01,0,1,7,2,{'Negative': 7},Negative,1,high,high,0,FALSE,710,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2)
+EXTERNAL_04288,FCALARKMIGGHYVQMVIIK,Hepatitis C virus,T cell assay,0,20,II,9.7,133.1,HLA-DRB1*07:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,711,Hepatitis C virus
+EXTERNAL_01065,SLTFIRSTTPLVMAW,Dengue virus,T cell assay,0,15,II,0.03,5.35,HLA-DRB1*07:01,0,1,3,2,{'Negative': 3},Negative,1,high,high,0,FALSE,712,Dengue virus
+EXTERNAL_02885,ILIGTLLMWLGLNTK,Zika virus,T cell assay,0,15,II,5,79.99,HLA-DRB1*15:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,713,Zika virus
+EXTERNAL_01423,GALNSLGKGIHQIFG,Zika virus,T cell assay,0,15,II,7,113.7,HLA-DRB1*11:01,0,1,4,4,{'Negative': 4},Negative,1,high,high,0,FALSE,714,Zika virus
+EXTERNAL_02919,NGSWKLEKASFIEVK,Dengue virus,T cell assay,0,15,II,1.3,7.84,HLA-DRB1*01:01,0,1,3,3,{'Negative': 3},Negative,1,high,high,0,FALSE,715,Dengue virus

@@ -1,0 +1,98 @@
+{
+  "model_file": "final_model.pkl",
+  "external_dataset": "external_validation_clean.csv",
+  "n_external": 3572,
+  "n_positive": 708,
+  "n_negative": 2864,
+  "training_feature_count": 1373,
+  "generated_feature_count": 1373,
+  "final_input_feature_count": 1373,
+  "missing_training_features": [],
+  "extra_generated_features": [],
+  "esm_model": "esm2_t30_150M_UR50D",
+  "esm_enabled": true,
+  "decision_threshold": 0.5155490947209052,
+  "metrics": {
+    "ROC_AUC": 0.7877252785405424,
+    "PR_AUC": 0.5068810107386748,
+    "Accuracy": 0.81494960806271,
+    "Balanced_Accuracy": 0.7229853154688635,
+    "Precision": 0.5308804204993429,
+    "Sensitivity_Recall": 0.5706214689265536,
+    "Specificity": 0.8753491620111732,
+    "F1": 0.5500340367597005,
+    "MCC": 0.4341968255733548,
+    "Brier_Score": 0.15232381969375094,
+    "Threshold": 0.5155490947209052,
+    "N": 3572,
+    "N_Positive": 708,
+    "N_Negative": 2864,
+    "TN": 2507,
+    "FP": 357,
+    "FN": 304,
+    "TP": 404
+  },
+  "bootstrap_successful_replicates": 2000,
+  "bootstrap_CI95": [
+    {
+      "Metric": "ROC_AUC",
+      "Estimate": 0.7878200131879873,
+      "CI_95_Lower": 0.7680668579962223,
+      "CI_95_Upper": 0.8079451833289218
+    },
+    {
+      "Metric": "PR_AUC",
+      "Estimate": 0.5080828331042703,
+      "CI_95_Lower": 0.4700660104191321,
+      "CI_95_Upper": 0.5474885601250392
+    },
+    {
+      "Metric": "Accuracy",
+      "Estimate": 0.8147947928331466,
+      "CI_95_Lower": 0.8020646696528555,
+      "CI_95_Upper": 0.8272676371780515
+    },
+    {
+      "Metric": "Balanced_Accuracy",
+      "Estimate": 0.7229420188304817,
+      "CI_95_Lower": 0.7041756645176707,
+      "CI_95_Upper": 0.7415950644439961
+    },
+    {
+      "Metric": "Precision",
+      "Estimate": 0.5304240802581877,
+      "CI_95_Lower": 0.4962655392702298,
+      "CI_95_Upper": 0.5655004096584599
+    },
+    {
+      "Metric": "Sensitivity",
+      "Estimate": 0.5707763183512271,
+      "CI_95_Lower": 0.5353087756968973,
+      "CI_95_Upper": 0.6051946231889779
+    },
+    {
+      "Metric": "Specificity",
+      "Estimate": 0.8751077193097365,
+      "CI_95_Lower": 0.8628537496638962,
+      "CI_95_Upper": 0.8868843099914465
+    },
+    {
+      "Metric": "F1",
+      "Estimate": 0.5497007864148834,
+      "CI_95_Lower": 0.5202663870767319,
+      "CI_95_Upper": 0.5805614020016322
+    },
+    {
+      "Metric": "MCC",
+      "Estimate": 0.433896623872081,
+      "CI_95_Lower": 0.3992712158398603,
+      "CI_95_Upper": 0.47071832189490254
+    },
+    {
+      "Metric": "Brier_Score",
+      "Estimate": 0.15237399991949477,
+      "CI_95_Lower": 0.14669057338365468,
+      "CI_95_Upper": 0.1582551189843397
+    }
+  ]
+}

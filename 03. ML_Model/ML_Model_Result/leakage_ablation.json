@@ -1,0 +1,6 @@
+{
+  "honest_group_aware_auc_probe": 0.8187887380534006,
+  "naive_non_grouped_auc_probe": 0.827170868347339,
+  "estimated_leakage_inflation": 0.008382130293938417,
+  "note": "These are LIGHT-BUDGET probes (random_search_iter=10, outer_repeats=1) for quantifying leakage only. Report cv_fold_results.csv / metric_summary_ci95.csv (full-budget, similarity-group-aware) as the model's actual performance."
+}

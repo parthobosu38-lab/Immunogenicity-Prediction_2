@@ -1,0 +1,44 @@
+EXTERNAL VALIDATION REPORT
+======================================================================
+
+Model: final_model.pkl
+Dataset: external_validation_clean.csv
+N external: 3572
+Positive: 708
+Negative: 2864
+
+PERFORMANCE METRICS
+----------------------------------------------------------------------
+ROC_AUC: 0.7877252785405424
+PR_AUC: 0.5068810107386748
+Accuracy: 0.81494960806271
+Balanced_Accuracy: 0.7229853154688635
+Precision: 0.5308804204993429
+Sensitivity_Recall: 0.5706214689265536
+Specificity: 0.8753491620111732
+F1: 0.5500340367597005
+MCC: 0.4341968255733548
+Brier_Score: 0.15232381969375094
+Threshold: 0.5155490947209052
+N: 3572
+N_Positive: 708
+N_Negative: 2864
+TN: 2507
+FP: 357
+FN: 304
+TP: 404
+
+
+BOOTSTRAP 95% CI
+----------------------------------------------------------------------
+           Metric  Estimate  CI_95_Lower  CI_95_Upper
+          ROC_AUC  0.787820     0.768067     0.807945
+           PR_AUC  0.508083     0.470066     0.547489
+         Accuracy  0.814795     0.802065     0.827268
+Balanced_Accuracy  0.722942     0.704176     0.741595
+        Precision  0.530424     0.496266     0.565500
+      Sensitivity  0.570776     0.535309     0.605195
+      Specificity  0.875108     0.862854     0.886884
+               F1  0.549701     0.520266     0.580561
+              MCC  0.433897     0.399271     0.470718
+      Brier_Score  0.152374     0.146691     0.158255

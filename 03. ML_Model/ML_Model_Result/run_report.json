@@ -1,0 +1,25 @@
+{
+  "restrict_to_assay_support": {
+    "n_before": 733,
+    "n_after": 733,
+    "dropped_no_assay_value": 0,
+    "dropped_unknown_class": 0
+  },
+  "restrict_to_tcell_assay": {
+    "n_before_tcell_filter": 733,
+    "n_after_tcell_filter": 733,
+    "n_dropped_no_tcell_evidence": 0
+  },
+  "conflict_resolution": {
+    "n_conflicting_groups_relabeled": 0,
+    "n_peptides_relabeled_to_consensus": 0,
+    "n_conflicting_groups_dropped": 7,
+    "n_peptides_dropped_as_contradictory": 15,
+    "n_peptides_after_resolution": 718
+  },
+  "n_features": 1373,
+  "n_peptides_final": 718,
+  "ensemble_roc_auc_mean": 0.8151737284997037,
+  "shap_computed": true,
+  "lime_computed": true
+}

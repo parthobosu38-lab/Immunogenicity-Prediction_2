@@ -1,0 +1,36 @@
+# This CITATION.cff file was generated based on the project's code.
+# TODO: replace the placeholder author, repository, and license fields below
+# with your own details before publishing.
+
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Peptide T-Cell Epitope Immunogenicity Prediction Pipeline"
+version: "1.0.0"
+date-released: "2026-09-04"
+authors:
+  - family-names: "Your Last Name"
+    given-names: "Your First Name"
+    affiliation: "Your Institution"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/your-username/your-repo"
+license: MIT
+keywords:
+  - immunoinformatics
+  - T-cell epitope prediction
+  - peptide immunogenicity
+  - machine learning
+  - IEDB
+  - MHC binding prediction
+  - ESM-2
+  - protein language model
+  - SHAP
+  - explainable AI
+abstract: >
+  A six-stage computational pipeline that curates T-cell assay data from
+  IEDB and CEDAR, verifies peptides against UniProt reference sequences,
+  annotates MHC class I/II binding, engineers sequence, physicochemical,
+  MHC-binding, and ESM-2 protein language model features, trains an
+  explainable weighted ensemble classifier (logistic regression, SVM,
+  tree ensembles, and XGBoost) under leakage-aware nested cross-validation,
+  and validates the resulting model on an independent external peptide set.

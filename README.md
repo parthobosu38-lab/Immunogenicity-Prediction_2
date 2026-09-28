@@ -145,3 +145,5 @@ name/affiliation and repository URL before publishing).
 
 This repository includes a `LICENSE` file. The code is released under the MIT License.
 
+## Zenodo
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22301492.svg)](https://doi.org/10.5281/zenodo.22301492)

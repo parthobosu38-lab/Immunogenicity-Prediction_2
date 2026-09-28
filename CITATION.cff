@@ -9,11 +9,11 @@ title: "Peptide T-Cell Epitope Immunogenicity Prediction Pipeline"
 version: "1.0.0"
 date-released: "2026-09-04"
 authors:
-  - family-names: "Your Last Name"
-    given-names: "Your First Name"
-    affiliation: "Your Institution"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
-repository-code: "https://github.com/your-username/your-repo"
+  - family-names: "Partho Bosu"
+    given-names: "Partho"
+    affiliation: "NIT Durgapur"
+    # orcid: "https://orcid.org/0009-0008-3201-1595"
+repository-code: "https://github.com/parthobosu38-lab/Immunogenicity-Prediction_2.git"
 license: MIT
 keywords:
   - immunoinformatics

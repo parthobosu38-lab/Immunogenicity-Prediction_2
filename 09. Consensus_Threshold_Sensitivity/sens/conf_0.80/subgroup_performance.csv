@@ -1,0 +1,9 @@
+subgroup_column,subgroup_value,n,n_positive,n_negative,roc_auc
+MHC_Class_Used,II,475,126,349,0.7486014463091827
+MHC_Class_Used,I,172,129,43,0.6325941950603929
+Organism,Influenza A virus (A/Puerto Rico/8/1934 H1N1),16,7,9,0.9047619047619048
+Organism,SARS-CoV-2 (Severe acute respiratory syndrome coronavirus 2),51,22,29,0.8824451410658307
+Organism,Hepatitis C virus,140,52,88,0.8218968531468532
+Organism,Dengue virus,209,136,73,0.7215954875100726
+Organism,Human respiratory syncytial virus,20,17,3,0.7058823529411765
+Organism,Zika virus,197,11,186,0.5899315738025415

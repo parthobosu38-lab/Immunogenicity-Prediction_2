@@ -1,0 +1,32 @@
+                       subset                                              score_label    n  n_pos   AUC  AUC_lo  AUC_hi  ens_minus_score  diff_lo  diff_hi  p_boot
+                 All peptides                                  Ensemble (frozen model) 3572    708 0.788   0.766   0.808              NaN      NaN      NaN     NaN
+                 All peptides    NetMHCpan/NetMHCIIpan rank (lower rank = immunogenic) 3572    708 0.732   0.709   0.753            0.056    0.040    0.072   0.000
+                 All peptides                  Baseline: shorter peptide = immunogenic 3572    708 0.732   0.709   0.754            0.056    0.037    0.073   0.000
+                 All peptides                Baseline: predicted class I = immunogenic 3572    708 0.689   0.668   0.709            0.099    0.080    0.117   0.000
+                 All peptides Baseline: rank + class + length (fitted on training set) 3572    708 0.773   0.751   0.795            0.014    0.003    0.026   0.014
+                     Class II                                  Ensemble (frozen model) 3034    387 0.693   0.661   0.724              NaN      NaN      NaN     NaN
+                     Class II    NetMHCpan/NetMHCIIpan rank (lower rank = immunogenic) 3034    387 0.678   0.646   0.709            0.015   -0.007    0.038   0.211
+                     Class II                  Baseline: shorter peptide = immunogenic 3034    387 0.593   0.565   0.620            0.100    0.067    0.134   0.000
+                     Class II Baseline: rank + class + length (fitted on training set) 3034    387 0.674   0.642   0.705            0.019   -0.004    0.042   0.110
+                Class I (all)                                  Ensemble (frozen model)  538    321 0.538   0.486   0.592              NaN      NaN      NaN     NaN
+                Class I (all)    NetMHCpan/NetMHCIIpan rank (lower rank = immunogenic)  538    321 0.427   0.377   0.475            0.111    0.040    0.184   0.002
+                Class I (all)                  Baseline: shorter peptide = immunogenic  538    321 0.393   0.348   0.437            0.145    0.080    0.213   0.000
+                Class I (all) Baseline: rank + class + length (fitted on training set)  538    321 0.432   0.382   0.481            0.106    0.034    0.179   0.003
+                Class I (all)                                   PRIME Score_bestAllele  538    321 0.401   0.353   0.454            0.138    0.067    0.213   0.001
+                Class I (all)             PRIME %Rank_bestAllele (lower = immunogenic)  538    321 0.394   0.346   0.447            0.145    0.073    0.220   0.001
+Class I 8-14 aa (PRIME input)                                  Ensemble (frozen model)  538    321 0.538   0.486   0.592              NaN      NaN      NaN     NaN
+Class I 8-14 aa (PRIME input)    NetMHCpan/NetMHCIIpan rank (lower rank = immunogenic)  538    321 0.427   0.377   0.475            0.111    0.040    0.184   0.002
+Class I 8-14 aa (PRIME input)                                   PRIME Score_bestAllele  538    321 0.401   0.353   0.454            0.138    0.067    0.213   0.001
+Class I 8-14 aa (PRIME input)             PRIME %Rank_bestAllele (lower = immunogenic)  538    321 0.394   0.346   0.447            0.145    0.073    0.220   0.001
+Class I 8-14 aa (PRIME input)                  Baseline: shorter peptide = immunogenic  538    321 0.393   0.348   0.437            0.145    0.080    0.213   0.000
+Class I 8-14 aa (PRIME input) Baseline: rank + class + length (fitted on training set)  538    321 0.432   0.382   0.481            0.106    0.034    0.179   0.003
+  Class I 9-mers (IEDB input)                                  Ensemble (frozen model)  288    145 0.553   0.483   0.620              NaN      NaN      NaN     NaN
+  Class I 9-mers (IEDB input)    NetMHCpan/NetMHCIIpan rank (lower rank = immunogenic)  288    145 0.424   0.352   0.495            0.129    0.028    0.233   0.012
+  Class I 9-mers (IEDB input)                              IEDB immunogenicity (Calis)  288    145 0.527   0.458   0.594            0.026   -0.066    0.118   0.590
+  Class I 9-mers (IEDB input)                                   PRIME Score_bestAllele  288    145 0.468   0.394   0.542            0.085   -0.013    0.182   0.094
+  Class I 9-mers (IEDB input)             PRIME %Rank_bestAllele (lower = immunogenic)  288    145 0.458   0.387   0.529            0.094   -0.004    0.192   0.058
+  Class I 9-mers (IEDB input) Baseline: rank + class + length (fitted on training set)  288    145 0.424   0.352   0.495            0.129    0.028    0.233   0.012
+
+HOW TO READ: every score is oriented so that higher = more immunogenic; nothing is flipped after the fact. 'ens_minus_score' is the ensemble AUC minus the score's AUC, with a paired bootstrap CI; if the CI contains 0 the difference is not demonstrated.
+CAVEATS to state in the paper: (1) the rank is the ensemble's own main input; (2) PRIME and the IEDB predictor were trained on IEDB-derived data and may have seen external peptides; (3) PRIME and IEDB are class I only; (4) 'class' is the predicted best class, not an experimental restriction; (5) the tools predict binding / CD8 immunogenicity, the labels are T-cell assay results.
+A score with AUC < 0.5 in a subset means its usual direction is inverted there (e.g. MHC rank in class I).

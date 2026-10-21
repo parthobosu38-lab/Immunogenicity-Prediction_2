@@ -1,0 +1,12 @@
+threshold_type,threshold,n,n_pos,n_neg,n_classI,groups_relabeled,groups_dropped
+consensus,0.51,721,298,423,195,1,6
+consensus,0.6,721,298,423,195,1,6
+consensus,0.65,721,298,423,195,1,6
+consensus,0.67,718,295,423,195,0,7
+consensus,0.75,718,295,423,195,0,7
+consensus,0.9,718,295,423,195,0,7
+consensus,1.0,718,295,423,195,0,7
+label_confidence,0.7,718,295,423,195,0,7
+label_confidence,0.8,647,255,392,172,0,6
+label_confidence,0.9,571,217,354,137,0,4
+label_confidence,1.0,564,210,354,133,0,4

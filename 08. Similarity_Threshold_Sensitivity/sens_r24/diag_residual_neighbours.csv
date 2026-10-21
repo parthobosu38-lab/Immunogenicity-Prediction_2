@@ -1,0 +1,7 @@
+measure,n_peptides,pct,of_which_classII
+edit identity to a peptide in another 0.80-cluster >= 0.6,184,25.6,
+edit identity to a peptide in another 0.80-cluster >= 0.7,106,14.8,
+edit identity to a peptide in another 0.80-cluster >= 0.75,33,4.6,
+shares a 9-aa stretch with a peptide of another 0.80-cluster,261,36.4,226.0
+shares a 8-aa stretch with a peptide of another 0.80-cluster,283,39.4,241.0
+shares a 7-aa stretch with a peptide of another 0.80-cluster,352,49.0,288.0

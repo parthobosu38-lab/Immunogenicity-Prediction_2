@@ -6,8 +6,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
 title: "Peptide T-Cell Epitope Immunogenicity Prediction Pipeline"
-version: "1.0.0"
-date-released: "2026-09-04"
+version: "1.1.0"
+date-released: "2026-10-21"
 authors:
   - family-names: "Partho Bosu"
     given-names: "Partho"
@@ -26,11 +26,20 @@ keywords:
   - protein language model
   - SHAP
   - explainable AI
+  - benchmarking
+  - ablation study
+  - sensitivity analysis
+  - PRIME
 abstract: >
-  A six-stage computational pipeline that curates T-cell assay data from
+  A computational pipeline (six notebooks in five numbered folders) that curates T-cell assay data from
   IEDB and CEDAR, verifies peptides against UniProt reference sequences,
   annotates MHC class I/II binding, engineers sequence, physicochemical,
   MHC-binding, and ESM-2 protein language model features, trains an
   explainable weighted ensemble classifier (logistic regression, SVM,
   tree ensembles, and XGBoost) under leakage-aware nested cross-validation,
   and validates the resulting model on an independent external peptide set.
+  Four supplementary analyses (folders 06-09) accompany the pipeline: a
+  benchmark against NetMHCpan/NetMHCIIpan rank, PRIME 2.1, the IEDB
+  immunogenicity tool and simple baselines; a feature-block ablation with an
+  ESM-2 redundancy analysis; and sensitivity analyses of the sequence-identity,
+  label-confidence and cluster-consensus thresholds.

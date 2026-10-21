@@ -1,0 +1,40 @@
+R3.4 REDUNDANCY ANALYSIS
+============================================================
+Block sizes: ESM2=640  MHC_ANCHOR=28  CLASSICAL=705  (ESM2 share of all columns: 46.6%)
+
+1. Effective dimensionality (PCs for 90% variance, participation ratio)
+   ESM2        PCs90=  33  participation ratio=   18.1
+   MHC_ANCHOR  PCs90=  11  participation ratio=    6.3
+   CLASSICAL   PCs90= 243  participation ratio=  107.4
+
+2. Linear CKA (observed | permutation-null mean | null 95th percentile)
+   ESM2 vs CLASSICAL         0.511 | 0.061 | 0.064
+   ESM2 vs MHC_ANCHOR        0.119 | 0.015 | 0.018
+   CLASSICAL vs MHC_ANCHOR   0.161 | 0.036 | 0.040
+
+3. Out-of-fold R^2 of each ESM2 dimension predicted from ... (group-aware 5-fold ridge)
+   from hand-engineered (MHC+classical)  mean R2=0.586  median=0.600  share R2>0.5: 80.3%  share R2<0.1: 0.0%
+   from classical only                   mean R2=0.582  median=0.595  share R2>0.5: 79.4%  share R2<0.1: 0.0%
+   from MHC_ANCHOR only                  mean R2=0.051  median=0.043  share R2>0.5: 0.0%  share R2<0.1: 87.5%
+
+4. Reverse direction: hand-engineered features predicted from ESM2
+   mean R2=0.222  median=0.113  share R2>0.5: 14.2%
+
+5. Largest |Spearman| of each ESM2 dimension with any hand-engineered feature
+   median=0.463  share>0.5: 36.1%  share>0.7: 1.1%
+
+6. Held-out CCA between ESM2 and hand-engineered features (first 5 components)
+   comp 1: observed 0.974 | null mean -0.010 | null 95th pct 0.063
+   comp 2: observed 0.968 | null mean -0.003 | null 95th pct 0.069
+   comp 3: observed 0.964 | null mean 0.003 | null 95th pct 0.083
+   comp 4: observed 0.949 | null mean -0.005 | null 95th pct 0.062
+   comp 5: observed 0.930 | null mean 0.000 | null 95th pct 0.060
+
+7. Label complementarity (ROC-AUC per outer fold, mean +/- SD; same logistic learner everywhere)
+   hand only              0.783 +/- 0.062
+   ESM raw only           0.757 +/- 0.067
+   ESM residual only      0.581 +/- 0.062
+   hand + ESM raw         0.780 +/- 0.061
+   hand + ESM residual    0.775 +/- 0.064
+   gain of (hand + ESM residual) over hand only: -0.008  95% CI [-0.041, +0.025]  corrected p=0.545
+   gain of (hand + ESM raw)      over hand only: -0.004  95% CI [-0.037, +0.030]  corrected p=0.786
